@@ -1,3 +1,8 @@
+<?php 
+$test = "testtt";
+$testBody = "jkwhdfhwf";
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,22 +21,22 @@
 			<h4>A homepage for the CS313 Class</h4>
 		</div>
 		<div class="row">
-			<div class="col-sm-4 buttonBackgroundColor centerTitle normalFontSize">
-				<a href="/index.html">Home</a>
+			<div class="col-sm-4 buttonBackgroundColor centerTitle normalFontSize" onclick="template.php">
+				<p>Home</p>
 			</div>
 			<div class="col-sm-4 buttonBackgroundColor centerTitle normalFontSize">
-				<a href="/about.html">About</a>
+				<p>About</p>
 			</div>
 			<div class="col-sm-4 buttonBackgroundColor centerTitle normalFontSize">
-				<a href="/assignments.html">Assignments</a>
+				<p>Assignments</p>
 			</div>
 		</div>
 		<br>
 		<div class="centerTitle titleFontSize">
-			<h2><?php echo "This Works;"?></h2>
+			<h2><?php echo $test; ?></h2>
 		</div>
 		<br>
-		<?php echo "This Works;"?>
+		<?php echo $testBody; ?>
 	</div>
 </body>
 </html>
