@@ -1,5 +1,5 @@
 <?php 
 echo "<html>";
-echo "<p>this works</p>";
+include_once('index.html');
 echo "</html>";
  ?>
