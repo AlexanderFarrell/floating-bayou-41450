@@ -1,0 +1,15 @@
+body {
+	background-color: #118899;
+}
+
+.wholePageBackground {
+	background-color: #33AABB;
+}
+
+.stretchToEnd {
+	min-height: 100vh;
+}
+
+.centerTitle {
+	text-align: center;
+}
