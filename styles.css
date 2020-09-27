@@ -2,7 +2,11 @@ body {
 	background-color: #118899;
 }
 
-.wholePageBackground {
+.titleTopPadding {
+	padding: 17px 0px 17px 0px;
+}
+
+.focusBackgroundColor {
 	background-color: #33AABB;
 }
 
@@ -12,4 +16,36 @@ body {
 
 .centerTitle {
 	text-align: center;
+}
+
+.buttonBackgroundColor {
+	background-color: #55CCDD
+}
+
+.calmSpace {
+	width: 80%;
+}
+
+.normalFontSize {
+	font-size:1.5em;
+}
+
+.titleFontSize {
+	font-size:5em;
+}
+
+a:link {
+  color: #0055EE;
+}
+
+a:visited {
+  color: #0055EE;
+}
+
+a:hover {
+  color: #0066FF;
+}
+
+a:active {
+  color: #0033CC;
 }
