@@ -1,6 +1,25 @@
 <?php 
-$test = "testtt";
-$testBody = "jkwhdfhwf";
+$selection = $_GET['var'];
+
+$filename = "";
+$title = "";
+switch ($selection) {
+	case 'about':
+		$filename = "about.html";
+		$title = "About me!";
+		break;
+	case 'assignments':
+		$filename = "assignments.html";
+		$title = "Assignments!";
+		break;
+	default:
+		$filename = "home.html";
+		$title = "Welcome!";
+		break;
+}
+
+$body = file_get_contents($filename);
+
 ?>
 
 <!DOCTYPE html>
@@ -21,22 +40,22 @@ $testBody = "jkwhdfhwf";
 			<h4>A homepage for the CS313 Class</h4>
 		</div>
 		<div class="row">
-			<div class="col-sm-4 buttonBackgroundColor centerTitle normalFontSize" onclick="template.php">
-				<p>Home</p>
+			<div class="col-sm-4 buttonBackgroundColor centerTitle normalFontSize">
+				<a href="/template.php?var=home">Home</a>
 			</div>
 			<div class="col-sm-4 buttonBackgroundColor centerTitle normalFontSize">
-				<p>About</p>
+				<a href="/template.php?var=about">About</a>
 			</div>
 			<div class="col-sm-4 buttonBackgroundColor centerTitle normalFontSize">
-				<p>Assignments</p>
+				<a href="/template.php?var=assignments">Assignments</a>
 			</div>
 		</div>
 		<br>
 		<div class="centerTitle titleFontSize">
-			<h2><?php echo $test; ?></h2>
+			<h2><?php echo $title; ?></h2>
 		</div>
 		<br>
-		<?php echo $testBody; ?>
+		<?php echo $body; ?>
 	</div>
 </body>
 </html>
