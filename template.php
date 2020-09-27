@@ -28,10 +28,10 @@
 		</div>
 		<br>
 		<div class="centerTitle titleFontSize">
-			<h2>{$titleOfSubpage}</h2>
+			<h2><?php echo "This Works;"?></h2>
 		</div>
 		<br>
-		{$contentsOfSubpage}
+		<?php echo "This Works;"?>
 	</div>
 </body>
 </html>
