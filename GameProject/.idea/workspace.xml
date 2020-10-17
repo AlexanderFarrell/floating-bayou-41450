@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:heroku" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d5d4b4f8-9edc-440d-8c01-fa7390a0936b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_App/TemplateManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_View/Banner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_View/BaseView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_View/GameControlsView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_View/GameDisplay.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_View/HeaderPage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_View/KeyDetailDisplay.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gameContent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phptest.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1itPppmPEXeM9cTgaLP01V5rBAn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5d4b4f8-9edc-440d-8c01-fa7390a0936b" name="Default Changelist" comment="" />
+      <created>1602724101010</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602724101010</updated>
+      <workItem from="1602724102327" duration="3169000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="989" y="343" key="#PHP" timestamp="1602725357440">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="989" y="343" key="#PHP/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602725357440" />
+    <state x="861" y="367" key="#Servers" timestamp="1602726850599">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="861" y="367" key="#Servers/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602726850599" />
+    <state x="736" y="355" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602726896853">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="736" y="355" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602726896853" />
+    <state x="1086" y="382" key="#com.intellij.ide.util.MemberChooser" timestamp="1602725965358">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1086" y="382" key="#com.intellij.ide.util.MemberChooser/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602725965358" />
+    <state x="861" y="435" key="IDE.errors.dialog" timestamp="1602724615245">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="861" y="435" key="IDE.errors.dialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602724615245" />
+    <state x="1101" y="423" key="NewPhpClassDialog" timestamp="1602725952360">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1101" y="423" key="NewPhpClassDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602725952360" />
+    <state x="1117" y="624" key="NewPhpFileDialog" timestamp="1602727067112">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1117" y="624" key="NewPhpFileDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602727067112" />
+    <state x="937" y="331" key="run.anything.popup" timestamp="1602726651895">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="937" y="331" key="run.anything.popup/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602726651895" />
+  </component>
+</project>

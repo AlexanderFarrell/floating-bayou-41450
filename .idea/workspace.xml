@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94922c96-6074-42b1-9164-68f83ddf4e82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GameProject/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1i7XwUEyO2WVQMuIzBPOax6QVLN" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94922c96-6074-42b1-9164-68f83ddf4e82" name="Default Changelist" comment="" />
+      <created>1601259843969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601259843969</updated>
+      <workItem from="1601259845639" duration="3136000" />
+      <workItem from="1601263007475" duration="1020000" />
+      <workItem from="1601353251678" duration="17000" />
+      <workItem from="1601734245694" duration="1840000" />
+      <workItem from="1601749799468" duration="2843000" />
+      <workItem from="1601775351414" duration="1820000" />
+      <workItem from="1602724073493" duration="27000" />
+      <workItem from="1602724255790" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="780" y="403" key="#CLI_Interpreters" timestamp="1601263232225">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="780" y="403" key="#CLI_Interpreters/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1601263232225" />
+    <state x="907" y="392" key="#PHP" timestamp="1601263042084">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="907" y="392" key="#PHP/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1601263042084" />
+    <state x="979" y="503" key="FileChooserDialogImpl" timestamp="1602724097523">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="979" y="503" key="FileChooserDialogImpl/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602724097523" />
+    <state x="700" y="393" key="SettingsEditor" timestamp="1601263235660">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="700" y="393" key="SettingsEditor/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1601263235660" />
+  </component>
+</project>
