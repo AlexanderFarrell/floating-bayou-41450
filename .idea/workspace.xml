@@ -25,8 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94922c96-6074-42b1-9164-68f83ddf4e82" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/GameProject/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/gameIndex.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/gameIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/gameIndex.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +77,7 @@
       <workItem from="1601775351414" duration="1820000" />
       <workItem from="1602724073493" duration="27000" />
       <workItem from="1602724255790" duration="21000" />
-      <workItem from="1602898075832" duration="158000" />
+      <workItem from="1602898075832" duration="464000" />
     </task>
     <servers />
   </component>

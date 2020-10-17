@@ -10,24 +10,33 @@ require_once('_View/HeaderPage.php');
     <?php
         TemplateManager::GetHeader()->drawHtml();
     ?>
-<body onload="takeTurnAndRefreshScreen()">
-    <div id="GameContent"></div>
+<body onload="startGame()">
+    <div id="GameContent">Hello</div>
 </body>
 </html>
 
 <script type="text/javascript">
-    var inputSelection;
+    let inputSelection;
 
     function setInputSelection(selectionID){
         inputSelection = selectionID;
     }
 
+    function startGame(){
+        let content = document.getElementById('GameContent');
+        content.innerHTML = "Loading";
+        takeTurnAndRefreshScreen();
+    }
+
     function takeTurnAndRefreshScreen(){
-        var content = document.getElementById('GameContent');
-        var xhttp = new XMLHttpRequest();
+        const content = document.getElementById('GameContent');
+        let xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function (){
             if (this.readyState === 4 && this.status === 200){
                 content.innerHTML = this.responseText;
+            }
+            else {
+                content.innerHTML = "An issue occurred, could not start game";
             }
         }
         xhttp.open("PUT", "gameContent.php", true);

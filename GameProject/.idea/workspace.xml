@@ -25,16 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5d4b4f8-9edc-440d-8c01-fa7390a0936b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_App/TemplateManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_View/Banner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_View/BaseView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_View/GameControlsView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_View/GameDisplay.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_View/HeaderPage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_View/KeyDetailDisplay.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gameContent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phptest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/gameIndex.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602724101010</updated>
       <workItem from="1602724102327" duration="3169000" />
+      <workItem from="1602898046526" duration="542000" />
     </task>
     <servers />
   </component>
@@ -88,6 +82,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="989" y="343" key="#PHP" timestamp="1602725357440">
