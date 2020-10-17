@@ -10,7 +10,7 @@ require_once('_View/HeaderPage.php');
     <?php
         TemplateManager::GetHeader()->drawHtml();
     ?>
-<body onload="startGame()">
+<body onload="startGame();">
     <div id="GameContent">Hello</div>
 </body>
 </html>
@@ -43,3 +43,4 @@ require_once('_View/HeaderPage.php');
         xhttp.setRequestHeader("Content-type", inputSelection);
         xhttp.send();
     }
+    </script>
