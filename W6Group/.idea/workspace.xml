@@ -25,19 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be963f67-c415-4fcf-9542-921f2d015823" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../GameProject/_App/Constants.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/Game.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/GameManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/Map.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GameProject/_View/_Stylesheets/GameStyleSheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GameProject/_ViewModelContracts/MapContract.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weekSixIndex.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameProject/_App/TemplateManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_App/TemplateManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameProject/_View/GameDisplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_View/GameDisplay.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameProject/_View/HeaderPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_View/HeaderPage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameProject/gameContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/gameContent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekSixIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/weekSixIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignments.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603236880225</updated>
-      <workItem from="1603236881321" duration="395000" />
+      <workItem from="1603236881321" duration="716000" />
     </task>
     <servers />
   </component>

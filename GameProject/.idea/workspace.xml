@@ -25,19 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5d4b4f8-9edc-440d-8c01-fa7390a0936b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_App/Constants.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_Game/Game.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_Game/GameManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_Game/Map.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_View/_Stylesheets/GameStyleSheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_ViewModelContracts/MapContract.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../W6Group/weekSixIndex.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_App/TemplateManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/_App/TemplateManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_View/GameDisplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/_View/GameDisplay.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_View/HeaderPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/_View/HeaderPage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/gameContent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../W6Group/weekSixIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/../W6Group/weekSixIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignments.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +85,7 @@
       <workItem from="1602947451690" duration="1575000" />
       <workItem from="1602975287528" duration="1221000" />
       <workItem from="1602989198694" duration="5324000" />
-      <workItem from="1603236829397" duration="448000" />
+      <workItem from="1603236829397" duration="650000" />
     </task>
     <servers />
   </component>
