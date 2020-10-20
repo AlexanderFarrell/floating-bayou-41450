@@ -25,8 +25,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94922c96-6074-42b1-9164-68f83ddf4e82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GameProject/_App/Constants.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/_Game/Game.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/_Game/GameManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/_Game/Map.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/_View/Game.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/_ViewModelContracts/MapContract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/gameIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/gameIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_App/TemplateManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_App/TemplateManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_View/GameDisplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_View/GameDisplay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/gameContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/gameContent.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +86,8 @@
       <workItem from="1601775351414" duration="1820000" />
       <workItem from="1602724073493" duration="27000" />
       <workItem from="1602724255790" duration="21000" />
-      <workItem from="1602898075832" duration="464000" />
+      <workItem from="1602898075832" duration="762000" />
+      <workItem from="1602947440250" duration="13000" />
     </task>
     <servers />
   </component>
@@ -94,6 +104,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="780" y="403" key="#CLI_Interpreters" timestamp="1601263232225">

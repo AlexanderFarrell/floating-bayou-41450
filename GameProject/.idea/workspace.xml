@@ -25,9 +25,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5d4b4f8-9edc-440d-8c01-fa7390a0936b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_App/Constants.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Game/Game.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Game/GameManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Game/Map.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_View/_Stylesheets/GameStyleSheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_ViewModelContracts/MapContract.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W6Group/weekSixIndex.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/gameIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_App/TemplateManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/_App/TemplateManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_View/GameDisplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/_View/GameDisplay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_View/HeaderPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/_View/HeaderPage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/gameContent.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +46,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -51,10 +68,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\CS313 2\W2\GameProject\_View" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -65,7 +91,11 @@
       <option name="presentableId" value="Default" />
       <updated>1602724101010</updated>
       <workItem from="1602724102327" duration="3169000" />
-      <workItem from="1602898046526" duration="542000" />
+      <workItem from="1602898046526" duration="2976000" />
+      <workItem from="1602947451690" duration="1575000" />
+      <workItem from="1602975287528" duration="1221000" />
+      <workItem from="1602989198694" duration="5324000" />
+      <workItem from="1603236829397" duration="448000" />
     </task>
     <servers />
   </component>
@@ -93,29 +123,37 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="861" y="367" key="#Servers/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602726850599" />
-    <state x="736" y="355" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602726896853">
+    <state x="736" y="355" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602992717895">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="736" y="355" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602726896853" />
-    <state x="1086" y="382" key="#com.intellij.ide.util.MemberChooser" timestamp="1602725965358">
+    <state x="736" y="355" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602992717895" />
+    <state x="1086" y="382" key="#com.intellij.ide.util.MemberChooser" timestamp="1602900719376">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1086" y="382" key="#com.intellij.ide.util.MemberChooser/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602725965358" />
+    <state x="1086" y="382" key="#com.intellij.ide.util.MemberChooser/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602900719376" />
+    <state x="1061" y="442" key="FileChooserDialogImpl" timestamp="1603236870264">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1061" y="442" key="FileChooserDialogImpl/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1603236870264" />
+    <state width="198" height="457" key="HiddenNamespacesPopup" timestamp="1602990962241">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="198" height="457" key="HiddenNamespacesPopup/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602990962241" />
     <state x="861" y="435" key="IDE.errors.dialog" timestamp="1602724615245">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="861" y="435" key="IDE.errors.dialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602724615245" />
-    <state x="1101" y="423" key="NewPhpClassDialog" timestamp="1602725952360">
+    <state x="1101" y="423" key="NewPhpClassDialog" timestamp="1602900481983">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1101" y="423" key="NewPhpClassDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602725952360" />
+    <state x="1101" y="423" key="NewPhpClassDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602900481983" />
     <state x="1117" y="624" key="NewPhpFileDialog" timestamp="1602727067112">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1117" y="624" key="NewPhpFileDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602727067112" />
-    <state x="937" y="331" key="run.anything.popup" timestamp="1602726651895">
+    <state x="937" y="331" key="run.anything.popup" timestamp="1602900769032">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="937" y="331" key="run.anything.popup/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602726651895" />
+    <state x="937" y="331" key="run.anything.popup/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602900769032" />
   </component>
 </project>
