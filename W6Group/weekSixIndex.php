@@ -34,12 +34,11 @@ if (isset($_POST['book'])){
 
     foreach ($_POST['topic'] as $topic){
         $sqlInsertTopic = 'INSERT INTO scripture_topic (ScriptureID, TopicID) values (:scriptureID, :topicID)';
-        $sqlInsertTopic->bindValue(':scriptureID', $dataScripture->ID, PDO::PARAM_INT);
+        $sqlInsertTopic->bindValue(':scriptureID', $dataScripture->id, PDO::PARAM_INT);
         $sqlInsertTopic->bindValue(':topicID', $topic, PDO::PARAM_INT);
         $sqlInsertTopic->execute();
         $worked = $sqlInsertTopic->rowCount();
         $sqlInsertTopic->closeCursor();
-
 }
 
 /*echo '<h1>Scripture Resources</h1>';
