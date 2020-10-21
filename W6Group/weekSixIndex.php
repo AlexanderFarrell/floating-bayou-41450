@@ -18,6 +18,30 @@ try {
     echo 'Issue connecting to database: ' . $exception->getMessage();
 }
 
+if ($_POST['book'] != null){
+    $sqlInsertScriptures = 'INSERT INTO scriptures (book, chapter, verse, content) 
+    values (:book, :chapter, :verse, :content)';
+    $stmtInsertScripture =  $connection->prepare($sqlInsertScriptures);
+    $stmtInsertScripture->bindValue(':book', $_POST['book'], PDO::PARAM_STR);
+    $stmtInsertScripture->bindValue(':chapter', $_POST['chapter'], PDO::PARAM_INT);
+    $stmtInsertScripture->bindValue(':verse', $_POST['verse'], PDO::PARAM_INT);
+    $stmtInsertScripture->bindValue(':content', $_POST['content'], PDO::PARAM_STR);
+    $stmtInsertScripture->execute();
+    $stmtInsertScripture->closeCursor();
+
+    $dataScripture = $stmtInsertScripture->fetch(PDO::FETCH_ASSOC);
+
+    foreach ($_POST['topic'] as $topic){
+        $sqlInsertTopic = 'INSERT INTO scripture_topic (ScriptureID, TopicID) values (:scriptureID, :topicID)';
+        $sqlInsertTopic->bindValue(':scriptureID', $dataScripture->ID, PDO::PARAM_INT);
+        $sqlInsertTopic->bindValue(':topicID', $topic, PDO::PARAM_INT);
+        $sqlInsertTopic->execute();
+        $sqlInsertTopic->closeCursor();
+
+        $worked = $sqlInsertTopic->rowCount();
+    }
+}
+
 /*echo '<h1>Scripture Resources</h1>';
 
 $sql = 'SELECT * from scriptures';
@@ -65,6 +89,7 @@ foreach ($data as $row){
                             type="text"
                             class="form-control"
                             id="book"
+                            name="book"
                     />
                 </div>
                 <div class="form-group">
@@ -73,6 +98,7 @@ foreach ($data as $row){
                             type="number"
                             class="form-control"
                             id="chapter"
+                            name="chapter"
                     />
                 </div>
                 <div class="form-group">
@@ -81,26 +107,27 @@ foreach ($data as $row){
                             type="number"
                             class="form-control"
                             id="verse"
+                            name="verse"
                     />
                 </div>
                 <div class="form-group">
                     <label for="content">Content</label>
-                    <textarea class="form-control" id="content" rows="7"></textarea>
+                    <textarea class="form-control" id="content" rows="7" name="content"></textarea>
                 </div>
                 <div class="form-group">
-                    <select multiple class="form-control" id="topic">
+                    <select multiple class="form-control" id="topic" name="topic">
                         <?php
 
-                        $sql = 'SELECT * from topic';
+                        $sqlInsertScriptures = 'SELECT * from topic';
 
                         echo '<br>';
 
-                        $stmt =  $connection->prepare($sql);
-                        $stmt->execute();
+                        $stmtInsertScripture =  $connection->prepare($sqlInsertScriptures);
+                        $stmtInsertScripture->execute();
 
-                        $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                        $data = $stmtInsertScripture->fetchAll(PDO::FETCH_ASSOC);
 
-                        $stmt->closeCursor();
+                        $stmtInsertScripture->closeCursor();
 
                         foreach ($data as $row){
                             echo '<option value="' . $row['ID'] . '">' . $row['name'] . '</option>';
