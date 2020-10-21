@@ -29,7 +29,7 @@ if (isset($_POST['book'])){
     $stmtInsertScripture->bindValue(':verse', $_POST['verse'], PDO::PARAM_INT);
     $stmtInsertScripture->bindValue(':content', $_POST['content'], PDO::PARAM_STR);
     $stmtInsertScripture->execute();
-    $dataScripture = $stmtInsertScripture->fetch(PDO::FETCH_ASSOC);
+    $dataScripture = $stmtInsertScripture->lastInsertId('topic_seq');
     $stmtInsertScripture->closeCursor();
 
     foreach ($_POST['topic'] as $topic){
