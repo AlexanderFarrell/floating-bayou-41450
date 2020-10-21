@@ -41,17 +41,14 @@ if ($_POST['book'] != null){
         $worked = $sqlInsertTopic->rowCount();
 
         if ($worked > 0){
-            echo '<div class="alert alert-success" role="alert">
-  Worked!!!
-</div>
-';
+            echo '<div class="alert alert-success" role="alert"> Worked!!!</div>';
+        }
             else {
                 echo  '<div class="alert alert-danger" role="alert">
                     Didnt work!!!</div>';
 
             }
         }
-    }
 }
 
 /*echo '<h1>Scripture Resources</h1>';
