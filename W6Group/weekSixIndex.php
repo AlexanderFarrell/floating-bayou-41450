@@ -1,7 +1,5 @@
 <?php
 
-//$user = "";
-//$password = "";
 $dsn = getenv('DATABASE_URL');
 
 $dbout = parse_url($dsn);
@@ -19,7 +17,7 @@ try {
 }catch (Exception $exception){
     echo 'Issue connecting to database: ' . $exception->getMessage();
 }
-/*
+
 echo '<h1>Scripture Resources</h1>';
 
 $sql = 'SELECT * from scriptures';
@@ -42,4 +40,4 @@ foreach ($data as $row){
     echo $row['content'];
     echo '<br>';
     echo '<br>';
-}*/
+}

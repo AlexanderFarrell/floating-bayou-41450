@@ -49,6 +49,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -61,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603236880225</updated>
-      <workItem from="1603236881321" duration="1681000" />
+      <workItem from="1603236881321" duration="2154000" />
     </task>
     <servers />
   </component>
@@ -80,6 +81,14 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="718" y="549" key="#SQL_Dialects" timestamp="1603238771272">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="718" y="549" key="#SQL_Dialects/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1603238771272" />
+    <state x="871" y="366" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603239020084">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="871" y="366" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1603239020084" />
     <state x="477" y="624" key="NewPhpFileDialog" timestamp="1603236953084">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
