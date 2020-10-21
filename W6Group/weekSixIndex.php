@@ -1,12 +1,21 @@
 <?php
 
-$user = "";
-$password = "";
+//$user = "";
+//$password = "";
 $dsn = getenv('DATABASE_URL');
+
+$dbout = parse_url($dsn);
+
+$host = $dbout["host"];
+$port = $dbout["port"];
+$user = $dbout["user"];
+$pass = $dbout["pass"];
+$name = ltrim($dbout["path"], '/');
+
 $connection = null;
 
 try {
-    $connection = new PDO($dsn);
+    $connection = new PDO("pgsql:host={$host};port={$port};dbname={$name}", $user, $pass);
 }catch (Exception $exception){
     echo 'Issue connecting to database: ' . $exception->getMessage();
 }
