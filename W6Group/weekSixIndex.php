@@ -130,7 +130,7 @@ else {
                     <textarea class="form-control" id="content" rows="7" name="content"></textarea>
                 </div>
                 <div class="form-group">
-                    <select multiple class="form-control" id="topic" name="topic">
+                    <select multiple class="form-control" id="topic" name="topic[]">
                         <?php
 
                         $sqlInsertScriptures = 'SELECT * from topic';
