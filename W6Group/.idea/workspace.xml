@@ -41,6 +41,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1jABBS0Ej5F1v4GL8G9xrJ2PMvF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -62,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603236880225</updated>
-      <workItem from="1603236881321" duration="2154000" />
+      <workItem from="1603236881321" duration="4993000" />
     </task>
     <servers />
   </component>
@@ -81,6 +82,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="989" y="343" key="#PHP" timestamp="1603242119005">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="989" y="343" key="#PHP/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1603242119005" />
     <state x="718" y="549" key="#SQL_Dialects" timestamp="1603238771272">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
