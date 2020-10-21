@@ -145,7 +145,7 @@ else {
                         $stmtInsertScripture->closeCursor();
 
                         foreach ($data as $row){
-                            echo '<option value="' . $row['ID'] . '">' . $row['name'] . '</option>';
+                            echo '<option value="' . $row['id'] . '">' . $row['name'] . '</option>';
                         }
 
                         ?>
