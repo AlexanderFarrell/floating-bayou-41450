@@ -29,18 +29,17 @@ if (isset($_POST['book'])){
     $stmtInsertScripture->bindValue(':verse', $_POST['verse'], PDO::PARAM_INT);
     $stmtInsertScripture->bindValue(':content', $_POST['content'], PDO::PARAM_STR);
     $stmtInsertScripture->execute();
-    $stmtInsertScripture->closeCursor();
-
     $dataScripture = $stmtInsertScripture->fetch(PDO::FETCH_ASSOC);
+    $stmtInsertScripture->closeCursor();
 
     foreach ($_POST['topic'] as $topic){
         $sqlInsertTopic = 'INSERT INTO scripture_topic (ScriptureID, TopicID) values (:scriptureID, :topicID)';
         $sqlInsertTopic->bindValue(':scriptureID', $dataScripture->ID, PDO::PARAM_INT);
         $sqlInsertTopic->bindValue(':topicID', $topic, PDO::PARAM_INT);
         $sqlInsertTopic->execute();
+        $worked = $sqlInsertTopic->rowCount();
         $sqlInsertTopic->closeCursor();
 
-        $worked = $sqlInsertTopic->rowCount();
 }
 
 /*echo '<h1>Scripture Resources</h1>';
@@ -80,24 +79,24 @@ foreach ($data as $row){
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+<?php
+
+
+
+if ($worked > 0){
+    echo '<div class="alert alert-success" role="alert"> Worked!!!</div>';
+}
+else {
+    echo  '<div class="alert alert-danger" role="alert">
+                    Didnt work!!!</div>';
+
+}
+}
+
+?>
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <?php
-
-
-
-            if ($worked > 0){
-                echo '<div class="alert alert-success" role="alert"> Worked!!!</div>';
-            }
-            else {
-                echo  '<div class="alert alert-danger" role="alert">
-                    Didnt work!!!</div>';
-
-            }
-            }
-
-           ?>
             <form action="weekSixIndex.php" method="post">
                 <div class="form-group">
                     <label for="book">Book</label>
