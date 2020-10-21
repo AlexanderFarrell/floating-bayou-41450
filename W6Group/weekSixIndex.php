@@ -18,7 +18,9 @@ try {
     echo 'Issue connecting to database: ' . $exception->getMessage();
 }
 
-if ($_POST['book'] != null){
+$worked = 0;
+
+if (isset($_POST['book'])){
     $sqlInsertScriptures = 'INSERT INTO scriptures (book, chapter, verse, content) 
     values (:book, :chapter, :verse, :content)';
     $stmtInsertScripture =  $connection->prepare($sqlInsertScriptures);
@@ -39,16 +41,6 @@ if ($_POST['book'] != null){
         $sqlInsertTopic->closeCursor();
 
         $worked = $sqlInsertTopic->rowCount();
-
-        if ($worked > 0){
-            echo '<div class="alert alert-success" role="alert"> Worked!!!</div>';
-        }
-            else {
-                echo  '<div class="alert alert-danger" role="alert">
-                    Didnt work!!!</div>';
-
-            }
-        }
 }
 
 /*echo '<h1>Scripture Resources</h1>';
@@ -91,7 +83,7 @@ foreach ($data as $row){
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <form action="weekSixIndex.php">
+            <form action="weekSixIndex.php" method="post">
                 <div class="form-group">
                     <label for="book">Book</label>
                     <input
@@ -140,6 +132,16 @@ foreach ($data as $row){
 
                         foreach ($data as $row){
                             echo '<option value="' . $row['ID'] . '">' . $row['name'] . '</option>';
+                        }
+
+                        if ($worked > 0){
+                            echo '<div class="alert alert-success" role="alert"> Worked!!!</div>';
+                        }
+                        else {
+                            echo  '<div class="alert alert-danger" role="alert">
+                    Didnt work!!!</div>';
+
+                        }
                         }
 
                         ?>
