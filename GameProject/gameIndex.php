@@ -12,7 +12,11 @@ require_once('_View/HeaderPage.php');
     ?>
 <body onload="startGame();">
 <script type="text/javascript">
-    let inputSelection;
+    function startGame(){
+        let content = document.getElementById('GameContent');
+        content.innerHTML = "Loading";
+    }
+    var inputSelection = 0;
 
     function setInputSelection(selectionID){
         inputSelection = selectionID;
@@ -21,10 +25,25 @@ require_once('_View/HeaderPage.php');
     function startGame(){
         let content = document.getElementById('GameContent');
         content.innerHTML = "Loading";
-        takeTurnAndRefreshScreen();
+        takeTurn();
     }
 
-    function takeTurnAndRefreshScreen(){
+    function takeTurn() {
+        var content = document.getElementById('GameContent');
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200){
+                content.innerHTML = this.responseText;
+            }
+        }
+
+        xhttp.open('GET', 'gameContent.php');
+        content.innerHTML = 'Loading';
+        xhttp.setRequestHeader("Content-type", inputSelection);
+        xhttp.send();
+    }
+
+    /*function takeTurnAndRefreshScreen(){
         const content = document.getElementById('GameContent');
         let xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function (){
@@ -42,9 +61,10 @@ require_once('_View/HeaderPage.php');
         content.innerHTML = "Loading";
         xhttp.setRequestHeader("Content-type", inputSelection);
         xhttp.send();
-    }
+    }*/
     </script>
 
 <div id="GameContent">Game Starting...</div>
+<button onclick="takeTurn()">Next Turn</button>
 </body>
 </html>
