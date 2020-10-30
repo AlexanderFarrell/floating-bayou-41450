@@ -1,10 +1,5 @@
 <?php
 
-if (!isset($_SESSION)){
-    session_start();
-    $_SESSION["TestNumber"] = 0;
-}
-
 /*if (session_id() == '' || !isset($_SESSION)){
     session_start();
     $_SESSION["TestNumber"] = 0;
