@@ -5,6 +5,11 @@
     $_SESSION["TestNumber"] = 0;
 }*/
 
+if (!isset($_SESSION)){
+    session_start();
+    $_SESSION["TestNumber"] = 0;
+}
+
 require_once '_App/TemplateManager.php';
 require_once '_View/BaseView.php';
 require_once '_View/GameControlsView.php';
