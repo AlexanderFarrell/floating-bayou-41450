@@ -25,7 +25,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be963f67-c415-4fcf-9542-921f2d015823" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/weekSixIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/weekSixIndex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/Color.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/Entity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/IEntityComponent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/IEntityContainer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/MapTile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/MapTileManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/MapTileType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/Player.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/Position.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/World.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/WorldTestInitializer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameProject/_View/Login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameProject/_View/loginForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/_Game/Game.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_Game/Game.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/_Game/GameManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_Game/GameManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/_Game/Map.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_Game/Map.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/_View/GameDisplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_View/GameDisplay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/_View/_Stylesheets/GameStyleSheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_View/_Stylesheets/GameStyleSheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +80,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603236880225</updated>
-      <workItem from="1603236881321" duration="8738000" />
+      <workItem from="1603236881321" duration="8812000" />
+      <workItem from="1603348870062" duration="650000" />
+      <workItem from="1603846478530" duration="837000" />
     </task>
     <servers />
   </component>
@@ -77,6 +99,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="989" y="343" key="#PHP" timestamp="1603242119005">
@@ -91,6 +114,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="871" y="366" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1603239020084" />
+    <state x="-1197" y="1390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603349028843">
+      <screen x="-1920" y="1069" width="1920" height="1020" />
+    </state>
+    <state x="-1197" y="1390" key="#com.intellij.fileTypes.FileTypeChooser/-1920.1069.1920.1020/0.0.2560.1400@-1920.1069.1920.1020" timestamp="1603349028843" />
     <state x="477" y="624" key="NewPhpFileDialog" timestamp="1603236953084">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

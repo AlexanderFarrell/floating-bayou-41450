@@ -25,7 +25,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5d4b4f8-9edc-440d-8c01-fa7390a0936b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../W6Group/weekSixIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/../W6Group/weekSixIndex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Game/Color.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Game/Entity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Game/IEntityComponent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Game/IEntityContainer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Game/MapTile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Game/MapTileManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Game/MapTileType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Game/Player.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Game/Position.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Game/World.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Game/WorldTestInitializer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_View/Login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_View/loginForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_Game/Game.php" beforeDir="false" afterPath="$PROJECT_DIR$/_Game/Game.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_Game/GameManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/_Game/GameManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_Game/Map.php" beforeDir="false" afterPath="$PROJECT_DIR$/_Game/Map.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_View/GameDisplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/_View/GameDisplay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_View/_Stylesheets/GameStyleSheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/_View/_Stylesheets/GameStyleSheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/gameContent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../W6Group/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../W6Group/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +60,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -57,12 +79,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.php.lang.actions.generation.PhpGenerateFieldAccessorHandlerBase$MyMemberChooser.fluent.setters.last.selected" value="true" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -83,7 +108,12 @@
       <workItem from="1602947451690" duration="1575000" />
       <workItem from="1602975287528" duration="1221000" />
       <workItem from="1602989198694" duration="5324000" />
-      <workItem from="1603236829397" duration="1269000" />
+      <workItem from="1603236829397" duration="1869000" />
+      <workItem from="1603348772617" duration="686000" />
+      <workItem from="1603825682190" duration="4308000" />
+      <workItem from="1603838887970" duration="6732000" />
+      <workItem from="1603846498105" duration="2604000" />
+      <workItem from="1604015908838" duration="1382000" />
     </task>
     <servers />
   </component>
@@ -115,14 +145,39 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="736" y="355" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602992717895" />
-    <state x="1086" y="382" key="#com.intellij.ide.util.MemberChooser" timestamp="1602900719376">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="815" y="284" key="#com.intellij.ide.util.MemberChooser" timestamp="1603844663270">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1086" y="382" key="#com.intellij.ide.util.MemberChooser/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602900719376" />
+    <state x="815" y="284" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603844663270" />
+    <state x="751" y="298" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603841093989">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="751" y="298" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603841093989" />
+    <state x="779" y="226" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1" timestamp="1603827973605">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="779" y="226" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1/0.0.1920.1040@0.0.1920.1040" timestamp="1603827973605" />
     <state x="1061" y="442" key="FileChooserDialogImpl" timestamp="1603236870264">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1061" y="442" key="FileChooserDialogImpl/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1603236870264" />
+    <state width="1293" height="33" key="GridCell.Tab.0.bottom" timestamp="1603826439400">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="33" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603826439400" />
+    <state width="1293" height="33" key="GridCell.Tab.0.center" timestamp="1603826439400">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="33" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603826439400" />
+    <state width="1293" height="33" key="GridCell.Tab.0.left" timestamp="1603826439399">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="33" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603826439399" />
+    <state width="1293" height="33" key="GridCell.Tab.0.right" timestamp="1603826439400">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="33" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603826439400" />
     <state width="198" height="457" key="HiddenNamespacesPopup" timestamp="1602990962241">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -131,14 +186,20 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="861" y="435" key="IDE.errors.dialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602724615245" />
-    <state x="1101" y="423" key="NewPhpClassDialog" timestamp="1602900481983">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="826" y="314" key="NewPhpClassDialog" timestamp="1603842657740">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1101" y="423" key="NewPhpClassDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602900481983" />
-    <state x="1117" y="624" key="NewPhpFileDialog" timestamp="1602727067112">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="826" y="314" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603842657740" />
+    <state x="838" y="464" key="NewPhpFileDialog" timestamp="1603847621135">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1117" y="624" key="NewPhpFileDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602727067112" />
+    <state x="838" y="464" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603847621135" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1603826930676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603826930676" />
     <state x="937" y="331" key="run.anything.popup" timestamp="1602900769032">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

@@ -1,6 +1,7 @@
 <?php
 
 require_once 'Game.php';
+require_once 'WorldTestInitializer.php';
 
 class GameManager
 {
@@ -9,6 +10,8 @@ class GameManager
     public static function GetGame(){
         if (static::$game == null){
             static::$game = new Game();
+            WorldTestInitializer::GenerateTestWorld();
+            WorldTestInitializer::CreateTestPlayer();
         }
 
         return static::$game;

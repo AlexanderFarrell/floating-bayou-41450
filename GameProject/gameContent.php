@@ -1,5 +1,17 @@
 <?php
 
+if (!isset($_SESSION)){
+    session_start();
+    $_SESSION["TestNumber"] = 0;
+}
+
+/*if (session_id() == '' || !isset($_SESSION)){
+    session_start();
+    $_SESSION["TestNumber"] = 0;
+}*/
+
+$_SESSION["TestNumber"]++;
+
 require_once '_App/TemplateManager.php';
 require_once '_View/BaseView.php';
 require_once '_View/GameControlsView.php';
@@ -13,6 +25,7 @@ $game = GameManager::GetGame();
 $debug = true;
 
 echo '<html>';
+echo $_SESSION["TestNumber"];
 if ($debug){
     TemplateManager::GetHeader()->drawHtml();
 }

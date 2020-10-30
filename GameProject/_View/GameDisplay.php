@@ -1,9 +1,12 @@
 <?php
 
+require_once 'BaseView.php';
 
 class GameDisplay extends BaseView
 {
     private $content;
+    private $width = 12;
+    private $height = 8;
 
     /**
      * GameDisplay constructor.
@@ -11,25 +14,26 @@ class GameDisplay extends BaseView
      */
     public function __construct()
     {
-        $this->content =
-            '<div id="display">
-            ....................<br>
-            ....................<br>
-            ....................<br>
-            ....................<br>
-            ....................<br>
-            ....................<br>
-            ....................<br>
-            ....................<br>
-            ....................<br>
-            ....................<br>
-            ....................<br>
-            ....................<br>
-            ....................<br>
-            ....................<br>
-            ....................<br>
-            </div>';
+        $content = "";
 
+        /*$this->content =
+            '<div id="display" class="centerText">
+            ....................<br>
+            ....................<br>
+            ....................<br>
+            ....................<br>
+            ....................<br>
+            ....................<br>
+            ....................<br>
+            ....................<br>
+            ....................<br>
+            ....................<br>
+            ....................<br>
+            ....................<br>
+            ....................<br>
+            ....................<br>
+            ....................<br>
+            </div>';*/
     }
 
     public function getHtml()
@@ -41,9 +45,10 @@ class GameDisplay extends BaseView
      * @param mixed $content
      * @return GameDisplay
      */
-    public function setContentFromMap($content)
+    public function setContentFromGame($game)
     {
-        $this->content = $content;
+        //$xStart = $game->getPlayer
+
         return $this;
     }
 
