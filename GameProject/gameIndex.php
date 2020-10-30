@@ -11,7 +11,7 @@ require_once('_View/HeaderPage.php');
         TemplateManager::GetHeader()->drawHtml();
     ?>
 <body onload="startGame();">
-    <div id="GameContent">Hello</div>
+    <div id="GameContent">Game Starting...</div>
 </body>
 </html>
 

@@ -25,6 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5d4b4f8-9edc-440d-8c01-fa7390a0936b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gameIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/gameIndex.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +93,8 @@
       <workItem from="1603825682190" duration="4308000" />
       <workItem from="1603838887970" duration="6732000" />
       <workItem from="1603846498105" duration="2604000" />
-      <workItem from="1604015908838" duration="1702000" />
+      <workItem from="1604015908838" duration="1928000" />
+      <workItem from="1604083953219" duration="811000" />
     </task>
     <servers />
   </component>
@@ -179,6 +181,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603826930676" />
+    <state x="288" y="127" width="585" height="801" key="find.popup" timestamp="1604017712269">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="288" y="127" width="585" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604017712269" />
     <state x="937" y="331" key="run.anything.popup" timestamp="1602900769032">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
