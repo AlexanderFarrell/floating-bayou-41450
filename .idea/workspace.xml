@@ -25,7 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94922c96-6074-42b1-9164-68f83ddf4e82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GameProject/sessionhandling.user.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/_App/RedisInit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/gameContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/gameContent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/gameIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/gameIndex.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

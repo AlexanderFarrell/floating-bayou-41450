@@ -25,9 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5d4b4f8-9edc-440d-8c01-fa7390a0936b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sessionhandling.user.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_App/RedisInit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/gameContent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/gameIndex.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +97,7 @@
       <workItem from="1603838887970" duration="6732000" />
       <workItem from="1603846498105" duration="2604000" />
       <workItem from="1604015908838" duration="1928000" />
-      <workItem from="1604083953219" duration="4940000" />
+      <workItem from="1604083953219" duration="5709000" />
     </task>
     <servers />
   </component>
@@ -168,10 +170,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="861" y="435" key="IDE.errors.dialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602724615245" />
-    <state x="826" y="314" key="NewPhpClassDialog" timestamp="1603842657740">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="1101" y="423" key="NewPhpClassDialog" timestamp="1604091874998">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1101" y="423" key="NewPhpClassDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602900481983" />
+    <state x="1101" y="423" key="NewPhpClassDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604091874998" />
     <state x="826" y="314" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603842657740" />
     <state x="838" y="464" key="NewPhpFileDialog" timestamp="1603847621135">
       <screen x="0" y="0" width="1920" height="1040" />

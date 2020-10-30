@@ -4,13 +4,6 @@
     session_start();
     $_SESSION["TestNumber"] = 0;
 }*/
-echo session_status() . '<br>';
-
-if (session_id() == "" || !isset($_SESSION)){
-    session_start();
-    $_SESSION["TestNumber"] = 0;
-    echo "Started Session" . '<br>';
-}
 
 require_once '_App/TemplateManager.php';
 require_once '_View/BaseView.php';
@@ -28,8 +21,6 @@ $game = GameManager::GetGame();
 $debug = true;
 
 echo '<html>';
-echo session_status() . '<br>';
-echo session_id() . '<br>';
 echo $_SESSION["TestNumber"];
 if ($debug){
     TemplateManager::GetHeader()->drawHtml();

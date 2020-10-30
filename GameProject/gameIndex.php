@@ -3,8 +3,13 @@
 require_once('_App/TemplateManager.php');
 require_once('_View/BaseView.php');
 require_once('_View/HeaderPage.php');
+require_once('_App/RedisInit.php');
+
+RedisInit::InitRegisSessions();
 
 ?>
+
+
 <!DOCTYPE HTML>
 <html>
     <?php
