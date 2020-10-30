@@ -25,28 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5d4b4f8-9edc-440d-8c01-fa7390a0936b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_Game/Color.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_Game/Entity.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_Game/IEntityComponent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_Game/IEntityContainer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_Game/MapTile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_Game/MapTileManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_Game/MapTileType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_Game/Player.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_Game/Position.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_Game/World.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_Game/WorldTestInitializer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_View/Login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_View/loginForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_Game/Game.php" beforeDir="false" afterPath="$PROJECT_DIR$/_Game/Game.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_Game/GameManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/_Game/GameManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_Game/Map.php" beforeDir="false" afterPath="$PROJECT_DIR$/_Game/Map.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_View/GameDisplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/_View/GameDisplay.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_View/_Stylesheets/GameStyleSheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/_View/_Stylesheets/GameStyleSheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/gameContent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../W6Group/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../W6Group/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/gameIndex.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +92,7 @@
       <workItem from="1603825682190" duration="4308000" />
       <workItem from="1603838887970" duration="6732000" />
       <workItem from="1603846498105" duration="2604000" />
-      <workItem from="1604015908838" duration="1382000" />
+      <workItem from="1604015908838" duration="1702000" />
     </task>
     <servers />
   </component>

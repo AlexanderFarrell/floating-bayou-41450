@@ -35,8 +35,11 @@ require_once('_View/HeaderPage.php');
             if (this.readyState === 4 && this.status === 200){
                 content.innerHTML = this.responseText;
             }
-            else {
+            else if this.readyState === 4 && this.status <= 500 {
                 content.innerHTML = "An issue occurred, could not start game";
+            }
+            else {
+                content.innerHTML = "Loading";
             }
         }
         xhttp.open("PUT", "gameContent.php", true);
