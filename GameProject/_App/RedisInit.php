@@ -3,6 +3,8 @@
 
 class RedisInit
 {
+    public static $redis;
+
     public static function InitRegisSessions(){
         if (!isset($_ENV['REDIS_URL'])){
             echo '<p>Regis not found</p>';
@@ -18,6 +20,8 @@ class RedisInit
 
         ini_set("session.save_path", $url);
         ini_set("session.save_handler", "redis");
+
+        static::$redis = new Predis\Client(getenv('REDIS_URL'));
 
         session_start();
     }
