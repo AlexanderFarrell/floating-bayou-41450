@@ -45,5 +45,6 @@ require_once('_View/HeaderPage.php');
         xhttp.open("PUT", "gameContent.php", true);
         xhttp.setRequestHeader("Content-type", inputSelection);
         xhttp.send();
+        content.innerHTML = "Loading";
     }
     </script>
