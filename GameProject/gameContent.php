@@ -5,8 +5,6 @@
     $_SESSION["TestNumber"] = 0;
 }*/
 
-$_SESSION["TestNumber"]++;
-
 require_once '_App/TemplateManager.php';
 require_once '_View/BaseView.php';
 require_once '_View/GameControlsView.php';
@@ -15,6 +13,9 @@ require_once '_View/KeyDetailDisplay.php';
 
 require_once '_Game/GameManager.php';
 require_once '_Game/Game.php';
+
+
+$_SESSION["TestNumber"]++;
 
 $game = GameManager::GetGame();
 $debug = true;

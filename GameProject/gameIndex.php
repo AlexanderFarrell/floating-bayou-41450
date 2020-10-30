@@ -1,6 +1,7 @@
 <?php
 
 if (!isset($_SESSION)){
+    echo "No Session";
     session_start();
     $_SESSION["TestNumber"] = 0;
 }

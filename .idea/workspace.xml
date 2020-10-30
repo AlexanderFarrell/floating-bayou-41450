@@ -25,7 +25,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94922c96-6074-42b1-9164-68f83ddf4e82" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/W6Group/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/W6Group/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/W2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/W2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/gameIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/gameIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +39,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,7 +53,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/predis/predis" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1i7XwUEyO2WVQMuIzBPOax6QVLN" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
@@ -54,7 +66,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
@@ -79,6 +93,7 @@
       <workItem from="1602898075832" duration="762000" />
       <workItem from="1602947440250" duration="13000" />
       <workItem from="1603237485719" duration="1129000" />
+      <workItem from="1604089047498" duration="1097000" />
     </task>
     <servers />
   </component>
@@ -106,6 +121,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="907" y="392" key="#PHP/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1601263042084" />
+    <state x="1058" y="613" key="ComposerInitDialogKey" timestamp="1604089277820">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1058" y="613" key="ComposerInitDialogKey/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604089277820" />
     <state x="979" y="503" key="FileChooserDialogImpl" timestamp="1602724097523">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
