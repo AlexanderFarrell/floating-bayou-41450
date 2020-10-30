@@ -11,10 +11,6 @@ require_once('_View/HeaderPage.php');
         TemplateManager::GetHeader()->drawHtml();
     ?>
 <body onload="startGame();">
-    <div id="GameContent">Game Starting...</div>
-</body>
-</html>
-
 <script type="text/javascript">
     let inputSelection;
 
@@ -48,3 +44,7 @@ require_once('_View/HeaderPage.php');
         xhttp.send();
     }
     </script>
+
+<div id="GameContent">Game Starting...</div>
+</body>
+</html>
