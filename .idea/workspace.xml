@@ -26,21 +26,13 @@
   <component name="ChangeListManager">
     <list default="true" id="94922c96-6074-42b1-9164-68f83ddf4e82" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/_Game/Entity.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/Entity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/_Game/Game.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/Game.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/_Game/GameManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/GameManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/_Game/Map.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/Map.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/_Game/MapTile.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/MapTile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/_Game/MapTileType.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/MapTileType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/_Game/Position.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/Position.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/_Game/World.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/World.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_Game/MapTileManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/MapTileManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_Game/Player.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/Player.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProject/_Game/WorldTestInitializer.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/WorldTestInitializer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProject/_View/GameControlsView.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_View/GameControlsView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProject/_View/GameDisplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_View/GameDisplay.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/_View/_Stylesheets/GameStyleSheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_View/_Stylesheets/GameStyleSheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_View/KeyDetailDisplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_View/KeyDetailDisplay.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProject/gameContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/gameContent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/gameIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/gameIndex.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +98,7 @@
       <workItem from="1603237485719" duration="1129000" />
       <workItem from="1604089047498" duration="1674000" />
       <workItem from="1604115958676" duration="9549000" />
-      <workItem from="1604156152208" duration="4595000" />
+      <workItem from="1604156152208" duration="6654000" />
     </task>
     <servers />
   </component>

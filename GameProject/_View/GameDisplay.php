@@ -43,24 +43,24 @@ class GameDisplay extends BaseView
 
     public function getHtml()
     {
-        $content = 'Map<br>';
+        $content = ''; //'Map<br>';
 
         $map = GameManager::GetGame()->getWorld()->getMap();
         $player = GameManager::GetGame()->getPlayerEntity();
 
-        $content .= 'You are at X' . $player->getPosition()->getX()
-            . ', Y: ' . $player->getPosition()->getY();
+        //$content .= 'You are at X' . $player->getPosition()->getX()
+        //    . ', Y: ' . $player->getPosition()->getY();
 
         $drawStartX = $player->getPosition()->getX() - ($this->width/2);
         $drawEndX = $player->getPosition()->getX() + ($this->width/2);
         $drawStartY = $player->getPosition()->getY() - ($this->height/2);
         $drawEndY = $player->getPosition()->getY() + ($this->height/2);
 
-        $content .= '<br>';
+        /*$content .= '<br>';
         $content .= $drawStartX . '<br>';
         $content .= $drawEndX . '<br>';
         $content .= $drawStartY . '<br>';
-        $content .= $drawEndY . '<br>';
+        $content .= $drawEndY . '<br>';*/
 
         $content .= '<div id="display" class="centerText">';
 

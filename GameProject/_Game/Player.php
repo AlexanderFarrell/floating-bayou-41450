@@ -5,6 +5,7 @@ require_once("IEntityComponent.php");
 class Player implements IEntityComponent
 {
     private $container;
+    public $hunger;
 
     public function SetContainer($container)
     {

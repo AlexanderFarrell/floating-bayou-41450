@@ -44,9 +44,22 @@ switch ($_POST['input']){
     default:
         break;
 }
-
-TemplateManager::GetGameDisplay()->drawHtml();
-TemplateManager::GetKeyDetailDisplay()->drawHtml();
-TemplateManager::GetGameControls()->drawHtml();
-
 ?>
+
+    <div class="d-flex flex-row justify-content-center">
+        <div class="p-2">
+            <?php TemplateManager::GetGameDisplay()->drawHtml(); ?>
+        </div>
+        <div class="p-2">
+            <?php TemplateManager::GetKeyDetailDisplay()->drawHtml(); ?>
+        </div>
+    </div>
+
+    <div class="d-flex flex-row justify-content-center">
+    <div class="p-2">
+    </div>
+    <div class="p-2">
+        <?php TemplateManager::GetGameControls()->drawHtml(); ?>
+    </div>
+    <div class="p-2">
+    </div>

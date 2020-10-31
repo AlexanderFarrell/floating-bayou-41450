@@ -11,6 +11,8 @@ class MapTileManager
             $_SESSION['tileTypes'] = array();
         }
 
+        var_dump($_SESSION['tileTypes']);
+
         return $_SESSION['tileTypes'];
     }
 
@@ -23,9 +25,11 @@ class MapTileManager
             throw new Exception("Must pass a MapTileType to add to MapTileManager");
         }
 
-        $arr = static::getTileTypesLoaded();
+        if (!isset($_SESSION['tileTypes'])){
+            $_SESSION['tileTypes'] = array();
+        }
 
-        array_push($arr, $tileType);
+        array_push($_SESSION['tileTypes'], $tileType);
     }
 
     public static function CountTypesLoaded(){
