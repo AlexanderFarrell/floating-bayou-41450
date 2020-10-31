@@ -1,11 +1,11 @@
 <?php
 
 require_once 'BaseView.php';
-require_once '../_Game/Game.php';
-require_once '../_Game/World.php';
-require_once '../_Game/Map.php';
-require_once '../_Game/MapTile.php';
-require_once '../_Game/MapTileType.php';
+require_once '_Game/Game.php';
+require_once '_Game/World.php';
+require_once '_Game/Map.php';
+require_once '_Game/MapTile.php';
+require_once '_Game/MapTileType.php';
 
 class GameDisplay extends BaseView
 {
