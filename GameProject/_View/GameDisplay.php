@@ -1,6 +1,11 @@
 <?php
 
 require_once 'BaseView.php';
+require_once '../_Game/Game.php';
+require_once '../_Game/World.php';
+require_once '../_Game/Map.php';
+require_once '../_Game/MapTile.php';
+require_once '../_Game/MapTileType.php';
 
 class GameDisplay extends BaseView
 {
@@ -11,11 +16,10 @@ class GameDisplay extends BaseView
     /**
      * GameDisplay constructor.
      * @param $content
+     * @throws Exception
      */
     public function __construct()
     {
-        $content = "";
-
         /*$this->content =
             '<div id="display" class="centerText">
             ....................<br>
@@ -38,7 +42,28 @@ class GameDisplay extends BaseView
 
     public function getHtml()
     {
-        return $this->getContent();
+        $content = "";
+
+        $map = GameManager::GetGame()->getWorld()->getMap();
+
+        $width = $map->getWidth();
+        $height = $map->getHeight();
+
+        for ($x = 0; $x < $width; $x++){
+            for ($y = 0; $y < $height; $y++){
+                $tile = $map->getTileAt($x, $y)->getTileType();
+                if ($tile != null){
+                    $content .= $map->getTileAt($x, $y)->getTileType()->getCharacter();
+                } else {
+                    $content .= ' ';
+                }
+            }
+
+            $content .= '<br>';
+        }
+
+        return $content;
+        //return $this->getContent();
     }
 
     /**

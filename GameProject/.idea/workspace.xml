@@ -26,7 +26,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d5d4b4f8-9edc-440d-8c01-fa7390a0936b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/gameContent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_Game/MapTileManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/_Game/MapTileManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_Game/MapTileType.php" beforeDir="false" afterPath="$PROJECT_DIR$/_Game/MapTileType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_View/GameDisplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/_View/GameDisplay.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -6,6 +6,54 @@ class MapTileType
 {
     private $name;
     private $character;
+
+    /**
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * @param string $name
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCharacter()
+    {
+        return $this->character;
+    }
+
+    /**
+     * @param mixed $character
+     */
+    public function setCharacter($character)
+    {
+        $this->character = $character;
+    }
+
+    /**
+     * @return Color
+     */
+    public function getColor()
+    {
+        return $this->color;
+    }
+
+    /**
+     * @param Color $color
+     */
+    public function setColor($color)
+    {
+        $this->color = $color;
+    }
     private $color;
 
     /**
