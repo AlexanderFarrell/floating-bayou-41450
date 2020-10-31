@@ -16,7 +16,6 @@ class RedisInit
                 'pass' => parse_url($_ENV['REDIS_URL'], PHP_URL_PASS)
             ]);
 
-            session_start();
             echo session_id() . '<br>';
 
             $_SESSION['Something'] = "This";

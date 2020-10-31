@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 require_once('_App/TemplateManager.php');
 require_once('_View/BaseView.php');
 require_once('_View/HeaderPage.php');
