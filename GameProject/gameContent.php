@@ -1,10 +1,5 @@
 <?php
 
-/*if (session_id() == '' || !isset($_SESSION)){
-    session_start();
-    $_SESSION["TestNumber"] = 0;
-}*/
-
 require_once '_App/TemplateManager.php';
 require_once '_View/BaseView.php';
 require_once '_View/GameControlsView.php';
@@ -17,7 +12,7 @@ require_once '_Game/Game.php';
 
 require_once('_App/RedisInit.php');
 
-RedisInit::InitRegisSessions();
+session_start();
 
 $game = GameManager::GetGame();
 $debug = true;

@@ -6,6 +6,9 @@ require_once('_View/HeaderPage.php');
 require_once('_App/RedisInit.php');
 
 RedisInit::InitRegisSessions();
+session_start();
+$_SESSION["TestNumber"] = 5;
+
 
 ?>
 
