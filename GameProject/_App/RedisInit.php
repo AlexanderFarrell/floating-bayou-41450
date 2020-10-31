@@ -6,7 +6,7 @@ class RedisInit
 
     public static function InitRegisSessions(){
 
-        if (!isset($_SESSION)){
+        if (!isset($_SESSION['Something'])){
             echo "Session was started" . '<br>' .
                 session_id() . '<br>';
             static::$redis = new \Predis\Client([
