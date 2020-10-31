@@ -9,15 +9,11 @@ require_once '_View/KeyDetailDisplay.php';
 require_once '_Game/GameManager.php';
 require_once '_Game/Game.php';
 
-
-require_once('_App/RedisInit.php');
-
 session_start();
 
 $game = GameManager::GetGame();
-$debug = true;
+$debug = false;
 
-echo '<html>';
 if ($debug){
     TemplateManager::GetHeader()->drawHtml();
 }
