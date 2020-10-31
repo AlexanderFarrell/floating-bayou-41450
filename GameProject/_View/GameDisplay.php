@@ -6,6 +6,7 @@ require_once '_Game/World.php';
 require_once '_Game/Map.php';
 require_once '_Game/MapTile.php';
 require_once '_Game/MapTileType.php';
+require_once '_Game/Entity.php';
 
 class GameDisplay extends BaseView
 {
@@ -45,15 +46,36 @@ class GameDisplay extends BaseView
         $content = 'Map<br>';
 
         $map = GameManager::GetGame()->getWorld()->getMap();
+        $player = GameManager::GetGame()->getPlayerEntity();
 
-        $width = $map->getWidth();
-        $height = $map->getHeight();
+        $content .= 'You are at X' . $player->getPosition()->getX()
+            . ', Y: ' . $player->getPosition()->getY();
 
-        for ($x = 0; $x < $width; $x++){
-            for ($y = 0; $y < $height; $y++){
-                $tile = $map->getTileAt($x, $y)->getTileType();
+        $drawStartX = $player->getPosition()->getX() - ($this->width/2);
+        $drawEndX = $player->getPosition()->getX() + ($this->width/2);
+        $drawStartY = $player->getPosition()->getY() - ($this->height/2);
+        $drawEndY = $player->getPosition()->getY() + ($this->height/2);
+
+        $content .= '<br>';
+        $content .= $drawStartX . '<br>';
+        $content .= $drawEndX . '<br>';
+        $content .= $drawStartY . '<br>';
+        $content .= $drawEndY . '<br>';
+
+        $content .= '<div id="display" class="centerText">';
+
+        for ($y = $drawStartY; $y < $drawEndY; $y++){
+            for ($x = $drawStartX; $x < $drawEndX; $x++){
+                $tile = $map->getTileAt($x, $y);
                 if ($tile != null){
-                    $content .= $map->getTileAt($x, $y)->getTileType()->getCharacter();
+                    //$content .= $y;
+                    if ($tile->overrideChar != null){
+                        //$content .= 'E' . $x . $y;
+                        //$content .= $tile->getEntities()[0]->getCharacter();
+                        $content .= $tile->overrideChar;
+                    } else {
+                        $content .= $tile->getTileType()->getCharacter();
+                    }
                 } else {
                     $content .= ' ';
                 }
@@ -62,7 +84,7 @@ class GameDisplay extends BaseView
             $content .= '<br>';
         }
 
-
+        $content .= '</div>';
 
         return $content;
         //return $this->getContent();

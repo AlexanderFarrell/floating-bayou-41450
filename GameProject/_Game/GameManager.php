@@ -3,8 +3,6 @@
 require_once 'Game.php';
 require_once 'WorldTestInitializer.php';
 
-session_start();
-
 class GameManager
 {
     //private static $game;

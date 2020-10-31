@@ -30,6 +30,9 @@ class Map
                 array_push($this->mapData[$x], new MapTile(null, $x, $y));
             }
         }
+
+        $this->width = $width;
+        $this->height = $height;
     }
 
     public function setTileTypeAt($tileType, $x, $y){

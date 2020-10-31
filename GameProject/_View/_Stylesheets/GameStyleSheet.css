@@ -1,8 +1,15 @@
 #display {
     font-family: 'Major Mono Display', monospace;
     color: red;
+    letter-spacing: 7px;
+
 }
 
 .centerText {
     text-align: center;
+}
+
+body {
+    background-color: #302929;
+    color: aliceblue;
 }

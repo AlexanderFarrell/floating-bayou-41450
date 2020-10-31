@@ -10,6 +10,14 @@ class World
     private $entities;
 
     /**
+     * @return array
+     */
+    public function getEntities()
+    {
+        return $this->entities;
+    }
+
+    /**
      * Game constructor.
      * @throws Exception
      */

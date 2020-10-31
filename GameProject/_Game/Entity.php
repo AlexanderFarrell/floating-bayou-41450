@@ -9,6 +9,8 @@ class Entity implements IEntityContainer
     private $name = "Unnamed";
     private $position;
     private $components;
+    private $character;
+    public $currentTile;
 
     /**
      * @return string
@@ -27,7 +29,7 @@ class Entity implements IEntityContainer
     }
 
     /**
-     * @return Position
+     * @return Position, do not set x and y here
      */
     public function getPosition()
     {
@@ -36,10 +38,29 @@ class Entity implements IEntityContainer
 
     /**
      * @param Position $position
+     * @throws Exception
      */
     public function setPosition($position)
     {
+        /*$oldTile = GameManager::GetGame()->getWorld()->getMap()->getTileAt($position->getX(), $position->getY());
+
+        if ($oldTile != null){
+            //$oldTile->removeEntity($this);
+            $oldTile->overrideChar = " ";
+        }*/
+
+        if ($this->currentTile != null){
+            $this->currentTile->overrideChar = null;
+        }
+
         $this->position = $position;
+
+        $this->currentTile = GameManager::GetGame()->getWorld()->getMap()->getTileAt($position->getX(), $position->getY());
+
+        if ($this->currentTile != null){
+            //$newTile->addEntity($this);
+            $this->currentTile->overrideChar = $this->character;
+        }
     }
 
     /**
@@ -47,7 +68,7 @@ class Entity implements IEntityContainer
      * @param $position
      * @throws Exception
      */
-    public function __construct($position)
+    public function __construct($position, $character)
     {
         if (!$position instanceof Position){
             throw new Exception("Position must be a Position");
@@ -55,6 +76,13 @@ class Entity implements IEntityContainer
 
         $this->position = $position;
         $this->components = array();
+        $this->character = $character;
+
+        $newTile = GameManager::GetGame()->getWorld()->getMap()->getTileAt($position->getX(), $position->getY());
+
+        if ($newTile != null){
+            $newTile->addEntity($this);
+        }
     }
 
     public function TakeTurn(){
@@ -85,5 +113,13 @@ class Entity implements IEntityContainer
             $this->components[$type]->End();
             unset($type, $this->components);
         }
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCharacter()
+    {
+        return $this->character;
     }
 }

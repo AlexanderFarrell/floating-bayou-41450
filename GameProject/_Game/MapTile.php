@@ -5,18 +5,11 @@ require_once("MapTileType.php");
 class MapTile
 {
     private $tileType;
-
-    /**
-     * @param MapTileType|null $tileType
-     * @return MapTile
-     */
-    public function setTileType($tileType)
-    {
-        $this->tileType = $tileType;
-        return $this;
-    }
     private $x;
     private $y;
+    private $entities = array();
+    public $overrideChar;
+    private $entityCount;
 
     /**
      * MapTile constructor.
@@ -38,6 +31,48 @@ class MapTile
         $this->tileType = $tileType;
         $this->x = $x;
         $this->y = $y;
+        $this->entityCount = 0;
+        $this->overrideChar = null;
+    }
+
+    /**
+     * @return int
+     */
+    public function getEntityCount()
+    {
+        return $this->entityCount;
+    }
+
+    /**
+     * @param MapTileType|null $tileType
+     * @return MapTile
+     */
+    public function setTileType($tileType)
+    {
+        $this->tileType = $tileType;
+        return $this;
+    }
+
+    public function addEntity($entity){
+        array_push($this->entities, $entity);
+        $this->entityCount++;
+    }
+
+    public function removeEntity($entity) {
+        $key = array_search($entity, $this->entities);
+        unset($key, $this->entities);
+        $this->entityCount--;
+    }
+
+    /**
+     * @return array
+     */
+    public function getEntities()
+    {
+        if ($this->entities == null){
+            $this->entities = array();
+        }
+        return $this->entities;
     }
 
     /**

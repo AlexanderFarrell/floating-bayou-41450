@@ -22,14 +22,14 @@ class Position
     /**
      * @param int $x
      */
-    public function setX($x)
+    /*public function setX($x)
     {
         if (!is_int($x)){
             throw new Exception("X must be an int");
         }
 
         $this->x = $x;
-    }
+    }*/
 
     /**
      * @return int
@@ -42,14 +42,14 @@ class Position
     /**
      * @param int $y
      */
-    public function setY($y)
+    /*public function setY($y)
     {
         if (!is_int($y)){
             throw new Exception("Y must be an int");
         }
 
         $this->y = $y;
-    }
+    }*/
 
     /**
      * Position constructor.

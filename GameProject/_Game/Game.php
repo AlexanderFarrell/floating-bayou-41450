@@ -12,6 +12,24 @@ class Game
     private $playerEntity;
 
     /**
+     * @return Entity
+     */
+    public function getPlayerEntity()
+    {
+        return $this->playerEntity;
+    }
+
+    /**
+     * @param mixed $playerEntity
+     * @return Game
+     */
+    public function setPlayerEntity($playerEntity)
+    {
+        $this->playerEntity = $playerEntity;
+        return $this;
+    }
+
+    /**
      * Game constructor.
      */
     public function __construct()
@@ -47,7 +65,7 @@ class Game
         }
 
         $this->player = $player;
-        $this->playerEntity = new Entity($position);
+        $this->playerEntity = new Entity($position, "$");
         $this->world->addEntity($this->playerEntity);
         $this->playerEntity->addComponent($player);
     }

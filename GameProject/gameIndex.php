@@ -27,19 +27,27 @@ session_start();
         takeTurn();
     }
 
+    function selectAndTakeTurn(selectionID){
+        setInputSelection(selectionID);
+        takeTurn();
+    }
+
     function takeTurn() {
         var content = document.getElementById('GameContent');
+        var loadingIndicator = document.getElementById('LoadingIndicator');
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200){
                 content.innerHTML = this.responseText;
+                loadingIndicator.innerHTML = '';
             }
         }
 
-        xhttp.open('GET', 'gameContent.php');
-        content.innerHTML = 'Loading';
-        xhttp.setRequestHeader("Content-type", inputSelection);
-        xhttp.send();
+        xhttp.open('POST', 'gameContent.php', true);
+        //content.innerHTML = 'Loading';
+        loadingIndicator.innerHTML = 'Loading...';
+        xhttp.setRequestHeader("Content-type", 'application/x-www-form-urlencoded');
+        xhttp.send("input=" + encodeURIComponent(inputSelection));
     }
 
     /*function takeTurnAndRefreshScreen(){
@@ -60,10 +68,11 @@ session_start();
         content.innerHTML = "Loading";
         xhttp.setRequestHeader("Content-type", inputSelection);
         xhttp.send();
+/////////////////////<button onclick="takeTurn()">Next Turn</button>
     }*/
     </script>
 
 <div id="GameContent">Game Starting...</div>
-<button onclick="takeTurn()">Next Turn</button>
+<div id="LoadingIndicator"></div>
 </body>
 </html>
