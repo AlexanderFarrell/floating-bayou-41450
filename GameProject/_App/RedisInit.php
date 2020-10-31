@@ -14,14 +14,12 @@ class RedisInit
         $url = "tcp://" . parse_url($_ENV['REDIS_URL'], PHP_URL_HOST)
             . ":" . parse_url($_ENV['REDIS_URL'], PHP_URL_PORT);
 
-        if (!is_array(parse_url($_ENV['REDIS_URL']), PHP_URL_PASS)) {
+        if (!is_array(parse_url($_ENV['REDIS_URL'], PHP_URL_PASS))) {
             $url .= "?auth=" . parse_url($_ENV['REDIS_URL'], PHP_URL_PASS);
         }
 
         ini_set("session.save_path", $url);
         ini_set("session.save_handler", "redis");
-
-        //static::$redis = new Predis\Client(getenv('REDIS_URL'));
 
         session_start();
     }

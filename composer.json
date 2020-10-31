@@ -1,7 +1,6 @@
 {
   "require": {
-    "predis/predis": "1.0.3.*"
-
+    "ext-memcached": "*"
   },
   "name": "alexanderfarrell/floating-bayou"
 }
