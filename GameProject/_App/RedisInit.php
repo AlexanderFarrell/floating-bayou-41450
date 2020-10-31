@@ -1,11 +1,25 @@
 <?php
 
-
 class RedisInit
 {
     public static $redis;
 
     public static function InitRegisSessions(){
+
+        if (!isset($_SESSION)){
+            echo "Session was started" . '<br>' .
+                session_id() . '<br>';
+            static::$redis = new \Predis\Client([
+                'scheme' => 'tcp',
+                'host' => parse_url($_ENV['REDIS_URL'], PHP_URL_HOST),
+                'port' => parse_url($_ENV['REDIS_URL'], PHP_URL_PORT),
+                'pass' => parse_url($_ENV['REDIS_URL'], PHP_URL_PASS)
+            ]);
+
+            session_start();
+        }
+        
+
         /*if (!isset($_ENV['REDIS_URL'])){
             echo '<p>Regis not found</p>';
             return;
