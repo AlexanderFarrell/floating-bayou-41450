@@ -18,7 +18,6 @@ $game = GameManager::GetGame();
 $debug = true;
 
 echo '<html>';
-echo $_SESSION["TestNumber"];
 if ($debug){
     TemplateManager::GetHeader()->drawHtml();
 }
