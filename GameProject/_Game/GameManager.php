@@ -24,4 +24,10 @@ class GameManager
 
         return $_SESSION['game'];
     }
+
+    public static function EndGame(){
+        if (isset($_SESSION['game'])){
+            unset($_SESSION['game']);
+        }
+    }
 }

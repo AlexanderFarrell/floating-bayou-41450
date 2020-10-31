@@ -15,10 +15,6 @@ require_once '_Game/Position.php';
 
 //session_start();
 
-if (!isset($_SESSION['game'])){
-    echo 'Started Game' . '<br>';
-}
-
 $game = GameManager::GetGame();
 $debug = false;
 
@@ -48,6 +44,8 @@ switch ($_POST['input']){
 
     <div class="d-flex flex-row justify-content-center">
         <div class="p-2">
+        </div>
+        <div class="p-2">
             <?php TemplateManager::GetGameDisplay()->drawHtml(); ?>
         </div>
         <div class="p-2">
@@ -63,3 +61,6 @@ switch ($_POST['input']){
     </div>
     <div class="p-2">
     </div>
+
+
+        <button onclick="endGame()">End Game</button>

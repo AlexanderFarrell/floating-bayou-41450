@@ -35,4 +35,10 @@ class MapTileManager
     public static function CountTypesLoaded(){
         return sizeof(static::getTileTypesLoaded());
     }
+
+    public static function Clear(){
+        if (isset($_SESSION['tileTypes'])){
+            unset($_SESSION['tileTypes']);
+        }
+    }
 }

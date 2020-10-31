@@ -25,14 +25,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94922c96-6074-42b1-9164-68f83ddf4e82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GameProject/_Content/Grass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/_Content/Rock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/_Content/TallGrass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/_View/CookieManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/_View/LoadTiles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/_View/_Stylesheets/MainGameTheme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/levelEditor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/mainMenu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/settings.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_Game/Color.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/Color.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_Game/GameManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/GameManager.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProject/_Game/MapTileManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/MapTileManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/_Game/Player.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/Player.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProject/_Game/WorldTestInitializer.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/WorldTestInitializer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/_View/GameControlsView.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_View/GameControlsView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProject/_View/GameDisplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_View/GameDisplay.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/_View/KeyDetailDisplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_View/KeyDetailDisplay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_View/HeaderPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_View/HeaderPage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_View/_Stylesheets/GameStyleSheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_View/_Stylesheets/GameStyleSheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProject/gameContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/gameContent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/gameIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/gameIndex.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +60,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="composer.json" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -73,9 +86,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\CS313 2\W2\GameProject\_Content" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -98,7 +117,7 @@
       <workItem from="1603237485719" duration="1129000" />
       <workItem from="1604089047498" duration="1674000" />
       <workItem from="1604115958676" duration="9549000" />
-      <workItem from="1604156152208" duration="6654000" />
+      <workItem from="1604156152208" duration="17332000" />
     </task>
     <servers />
   </component>
@@ -138,14 +157,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="979" y="503" key="FileChooserDialogImpl/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602724097523" />
-    <state x="1117" y="624" key="NewPhpFileDialog" timestamp="1604123821952">
+    <state x="1117" y="624" key="NewPhpFileDialog" timestamp="1604166429565">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1117" y="624" key="NewPhpFileDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604123821952" />
+    <state x="1117" y="624" key="NewPhpFileDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604166429565" />
     <state x="700" y="393" key="SettingsEditor" timestamp="1601263235660">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="700" y="393" key="SettingsEditor/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1601263235660" />
+    <state x="-2004" y="1057" width="1936" height="999" key="dock-window-1" timestamp="1604167812136">
+      <screen x="-1920" y="1069" width="1920" height="1020" />
+    </state>
+    <state x="-2004" y="1057" width="1936" height="999" key="dock-window-1/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604167812136" />
+    <state x="297" y="443" width="1936" height="999" key="dock-window-2" timestamp="1604167201839">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="297" y="443" width="1936" height="999" key="dock-window-2/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604167201839" />
     <state x="987" y="433" width="587" height="534" key="find.popup" timestamp="1604156247226">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

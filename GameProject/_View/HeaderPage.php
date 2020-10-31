@@ -39,6 +39,7 @@ class HeaderPage extends BaseView
                     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Forum&display=swap" >
                     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" >
                     <link rel="stylesheet" href="_View/_Stylesheets/GameStyleSheet.css">
+                    <link rel="stylesheet" href="_View/_Stylesheets/MainGameTheme.css">
                     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
                         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
                         crossorigin="anonymous"></script>

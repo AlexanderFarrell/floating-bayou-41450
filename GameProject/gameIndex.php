@@ -12,10 +12,68 @@ session_start();
 <html lang="en">
     <?php
         TemplateManager::GetHeader()->drawHtml();
+        echo '<body ';
+        if (isset($_SESSION['game'])){
+            echo 'onload="startGame()"';
+        }
+        else {
+            echo 'onload="endGame()"';
+        }
+        echo '>';
     ?>
-<body onload="startGame();">
 <script type="text/javascript">
     var inputSelection = 0;
+
+    function endGame(){
+        var content = document.getElementById('GameContent');
+        var loadingIndicator = document.getElementById('LoadingIndicator');
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200){
+                content.innerHTML = this.responseText;
+                loadingIndicator.innerHTML = '';
+            }
+        }
+
+        xhttp.open('POST', 'mainMenu.php', true);
+        loadingIndicator.innerHTML = 'Loading...';
+        xhttp.setRequestHeader("Content-type", 'application/x-www-form-urlencoded');
+        xhttp.send();
+    }
+
+    function openLevelEditor(){
+        var content = document.getElementById('GameContent');
+        var loadingIndicator = document.getElementById('LoadingIndicator');
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200){
+                content.innerHTML = this.responseText;
+                loadingIndicator.innerHTML = '';
+            }
+        }
+
+        xhttp.open('POST', 'levelEditor.php', true);
+        loadingIndicator.innerHTML = 'Loading...';
+        xhttp.setRequestHeader("Content-type", 'application/x-www-form-urlencoded');
+        xhttp.send();
+    }
+
+    function openSettingsMenu(){
+        var content = document.getElementById('GameContent');
+        var loadingIndicator = document.getElementById('LoadingIndicator');
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200){
+                content.innerHTML = this.responseText;
+                loadingIndicator.innerHTML = '';
+            }
+        }
+
+        xhttp.open('POST', 'settings.php', true);
+        loadingIndicator.innerHTML = 'Loading...';
+        xhttp.setRequestHeader("Content-type", 'application/x-www-form-urlencoded');
+        xhttp.send();
+    }
 
     function setInputSelection(selectionID){
         inputSelection = selectionID;
@@ -72,7 +130,9 @@ session_start();
     }*/
     </script>
 
-<div id="GameContent">Game Starting...</div>
-<div id="LoadingIndicator"></div>
+    <div class="container backgroundCenter">
+        <div id="GameContent">Game Starting...</div>
+        <div id="LoadingIndicator"></div>
+    </div>
 </body>
 </html>

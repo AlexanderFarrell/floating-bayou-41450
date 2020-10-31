@@ -72,12 +72,16 @@ class GameDisplay extends BaseView
                     if ($tile->overrideChar != null){
                         //$content .= 'E' . $x . $y;
                         //$content .= $tile->getEntities()[0]->getCharacter();
+                        $content .= '<span style="color: red">';
                         $content .= $tile->overrideChar;
+                        $content .= '</style>';
                     } else {
+                        $content .= '<span style="color: ' . $tile->getTileType()->getColor()->getHex() . '">';
                         $content .= $tile->getTileType()->getCharacter();
+                        $content .= '</style>';
                     }
                 } else {
-                    $content .= ' ';
+                    $content .= '_';
                 }
             }
 

@@ -7,6 +7,21 @@ class Color
     private $green;
     private $blue;
 
+    public function getHex(){
+        return "#" . $this->getHexSingle($this->getRed()) . $this->getHexSingle($this->getGreen()) . $this->getHexSingle($this->getBlue());
+    }
+
+    private function getHexSingle($val){
+        $retVal = "";
+
+        if ($val < 16){
+            $retVal .= '0';
+        }
+        $retVal .= dechex($val);
+
+        return $retVal;
+    }
+
     /**
      * @return mixed
      */
