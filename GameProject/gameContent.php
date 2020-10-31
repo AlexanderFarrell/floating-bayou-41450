@@ -14,8 +14,12 @@ require_once '_View/KeyDetailDisplay.php';
 require_once '_Game/GameManager.php';
 require_once '_Game/Game.php';
 
-
-$_SESSION["TestNumber"]++;
+if (!isset($_SESSION["TestNumber"])){
+    echo "Not set anymore";
+}else{
+    echo $_SESSION["TestNumber"];
+}
+$_SESSION["TestNumber"] = $_SESSION["TestNumber"] + 1;
 
 $game = GameManager::GetGame();
 $debug = true;
