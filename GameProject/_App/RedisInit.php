@@ -17,8 +17,11 @@ class RedisInit
             ]);
 
             session_start();
+            echo session_id() . '<br>';
+
+            $_SESSION['Something'] = "This";
         }
-        
+
 
         /*if (!isset($_ENV['REDIS_URL'])){
             echo '<p>Regis not found</p>';
