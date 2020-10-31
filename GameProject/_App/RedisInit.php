@@ -21,7 +21,7 @@ class RedisInit
         ini_set("session.save_path", $url);
         ini_set("session.save_handler", "redis");
 
-        static::$redis = new Predis\Client(getenv('REDIS_URL'));
+        //static::$redis = new Predis\Client(getenv('REDIS_URL'));
 
         session_start();
     }
