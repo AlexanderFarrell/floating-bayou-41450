@@ -3,23 +3,18 @@
 require_once('_App/TemplateManager.php');
 require_once('_View/BaseView.php');
 require_once('_View/HeaderPage.php');
-require_once('_App/RedisInit.php');
 session_start();
 
 ?>
 
 
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
     <?php
         TemplateManager::GetHeader()->drawHtml();
     ?>
 <body onload="startGame();">
 <script type="text/javascript">
-    function startGame(){
-        let content = document.getElementById('GameContent');
-        content.innerHTML = "Loading";
-    }
     var inputSelection = 0;
 
     function setInputSelection(selectionID){
