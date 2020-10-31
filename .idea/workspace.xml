@@ -25,8 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94922c96-6074-42b1-9164-68f83ddf4e82" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/GameProject/_Game/MapTileManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/MapTileManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/_Game/MapTileType.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/MapTileType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProject/_View/GameDisplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_View/GameDisplay.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +91,7 @@
       <workItem from="1602947440250" duration="13000" />
       <workItem from="1603237485719" duration="1129000" />
       <workItem from="1604089047498" duration="1674000" />
-      <workItem from="1604115958676" duration="7954000" />
+      <workItem from="1604115958676" duration="8329000" />
     </task>
     <servers />
   </component>

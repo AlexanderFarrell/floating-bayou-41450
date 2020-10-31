@@ -42,7 +42,7 @@ class GameDisplay extends BaseView
 
     public function getHtml()
     {
-        $content = "";
+        $content = 'Map<br>';
 
         $map = GameManager::GetGame()->getWorld()->getMap();
 
@@ -61,6 +61,8 @@ class GameDisplay extends BaseView
 
             $content .= '<br>';
         }
+
+
 
         return $content;
         //return $this->getContent();
