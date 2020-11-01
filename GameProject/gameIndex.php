@@ -62,6 +62,7 @@ session_start();
 
                 if (content === "success"){
                     openScreen('mainMenu.php');
+                    document.getElementById('user').innerText = "Logged in";
                 } else {
                     document.getElementById('errorCreateUser').innerText = content;
                 }
