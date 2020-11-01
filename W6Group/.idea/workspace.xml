@@ -25,7 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be963f67-c415-4fcf-9542-921f2d015823" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../GameProject/_App/UserManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_App/UserManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameProject/stuff.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
