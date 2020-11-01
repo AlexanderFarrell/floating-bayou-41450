@@ -4877,7 +4877,7 @@ true posixrules
     <database id="868" parent="1" name="d6hqh1dpberqgh">
       <ObjectId>6538859</ObjectId>
       <Owner>uvznwscgvkvxvf</Owner>
-      <IntrospectionStateNumber>49952497</IntrospectionStateNumber>
+      <IntrospectionStateNumber>49956284</IntrospectionStateNumber>
       <Current>1</Current>
       <Relations>sequence|table|7051324|7051326|1
 sequence|table|6539341|6539343|1
@@ -23278,7 +23278,7 @@ sequence|table|8698274|6539412|7
       <Comment>standard public schema</Comment>
       <StateNumber>18990501</StateNumber>
       <Owner>uvznwscgvkvxvf</Owner>
-      <IntrospectionStateNumber>49952625</IntrospectionStateNumber>
+      <IntrospectionStateNumber>49956389</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <access-method id="5035" parent="868" name="heap">
@@ -23452,7 +23452,7 @@ sequence|table|8698274|6539412|7
     <table id="5065" parent="5034" name="users">
       <ObjectId>8698266</ObjectId>
       <Owner>uvznwscgvkvxvf</Owner>
-      <StateNumber>49884977</StateNumber>
+      <StateNumber>49956009</StateNumber>
     </table>
     <routine id="5066" parent="5034" name="getmap">
       <ObjectId>6972325</ObjectId>
@@ -23815,25 +23815,31 @@ sequence|table|8698274|6539412|7
       <StateNumber>49884899</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="5114" parent="5065" name="users_pkey">
+    <column id="5114" parent="5065" name="pass">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>49956009</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="5115" parent="5065" name="users_pkey">
       <ObjectId>8698270</ObjectId>
       <StateNumber>49884899</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <key id="5115" parent="5065" name="users_pkey">
+    <key id="5116" parent="5065" name="users_pkey">
       <ObjectId>8698271</ObjectId>
       <StateNumber>49884899</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
     </key>
-    <argument id="5116" parent="5066" name="mapname">
+    <argument id="5117" parent="5066" name="mapname">
       <Position>1</Position>
       <DataType>varchar|0s</DataType>
     </argument>
-    <argument id="5117" parent="5066">
+    <argument id="5118" parent="5066">
       <ArgumentDirection>R</ArgumentDirection>
       <DataType>setof() maps|0s</DataType>
     </argument>

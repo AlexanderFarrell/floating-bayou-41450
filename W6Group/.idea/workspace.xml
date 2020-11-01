@@ -25,8 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be963f67-c415-4fcf-9542-921f2d015823" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/51041b83-d339-4694-8b38-62ee7c8bc4d6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/dataSources/51041b83-d339-4694-8b38-62ee7c8bc4d6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/51041b83-d339-4694-8b38-62ee7c8bc4d6/storage_v2/_src_/database/d6hqh1dpberqgh.k5gCaA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/dataSources/51041b83-d339-4694-8b38-62ee7c8bc4d6/storage_v2/_src_/database/d6hqh1dpberqgh.k5gCaA/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GameProject/_App/UserManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_App/UserManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
