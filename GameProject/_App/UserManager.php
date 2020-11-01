@@ -53,7 +53,7 @@ class UserManager
 
         $sql = "SELECT * FROM users WHERE name = :name";
         $statement = $db->prepare($sql);
-        $statement->bindValue(':user', $user->name, PDO::PARAM_STR);
+        $statement->bindValue(':name', $user->name, PDO::PARAM_STR);
         if ($statement->execute()){
             $dbUser = $statement->fetch(PDO::FETCH_ASSOC);
             $statement->closeCursor();
