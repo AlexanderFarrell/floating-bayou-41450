@@ -51,10 +51,9 @@ class UserManager
             throw new Exception("Error connecting to server");
         }
 
-        $sql = "SELECT * FROM users WHERE name = :namess";
+        $sql = "SELECT * FROM users WHERE name = :name";
         $statement = $db->prepare($sql);
-        $statement->bindValue(':namess', $user->name, PDO::PARAM_STR);
-        var_dump($statement);
+        $statement->bindValue(':name', $user->name, PDO::PARAM_STR);
         if ($statement->execute()){
             $dbUser = $statement->fetch(PDO::FETCH_ASSOC);
 
