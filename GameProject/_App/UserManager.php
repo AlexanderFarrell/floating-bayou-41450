@@ -77,9 +77,5 @@ class UserManager
         } catch (Exception $e){
             throw $e;
         }
-
-        else {
-            throw new Exception("Error retrieving data from server");
-        }
     }
 }
