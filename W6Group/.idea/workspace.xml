@@ -24,9 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be963f67-c415-4fcf-9542-921f2d015823" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../GameProject/_App/UserManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_App/UserManager.php" afterDir="false" />
-    </list>
+    <list default="true" id="be963f67-c415-4fcf-9542-921f2d015823" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +61,7 @@
       <workItem from="1603236881321" duration="8812000" />
       <workItem from="1603348870062" duration="650000" />
       <workItem from="1603846478530" duration="837000" />
-      <workItem from="1604195399568" duration="1632000" />
+      <workItem from="1604195399568" duration="1792000" />
     </task>
     <servers />
   </component>

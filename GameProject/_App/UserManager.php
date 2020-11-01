@@ -59,7 +59,7 @@ class UserManager
             $statement->closeCursor();
 
             if (!isset($dbuser)){
-                throw new Exception("No");
+                throw new Exception("No: " . $user->name . ", " . $user->password);
             }
 
             if (password_verify($user->password, $dbUser['pass'])){
