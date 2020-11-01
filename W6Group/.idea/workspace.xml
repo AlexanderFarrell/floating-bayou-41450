@@ -25,14 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be963f67-c415-4fcf-9542-921f2d015823" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../GameProject/_App/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GameProject/_App/UserManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GameProject/createAccount.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GameProject/createUserScreen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GameProject/loginUser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/_App/UserManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_App/UserManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/createAccount.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/createAccount.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/createUserScreen.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/createUserScreen.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GameProject/gameIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/gameIndex.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameProject/mainMenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/mainMenu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

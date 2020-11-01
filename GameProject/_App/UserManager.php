@@ -1,5 +1,6 @@
 <?php
 
+require_once __DIR__ . '/../_Data/DatabaseHandler.php';
 
 class UserManager
 {
@@ -31,7 +32,7 @@ class UserManager
             $newId = $db->lastInsertId();
             $statement->closeCursor();
             $db = null;
-            return true;
+            return 'work';
         } else {
             $statement->closeCursor();
             $db = null;

@@ -9,18 +9,20 @@ if (isset($_POST['username']) && isset( $_POST['password'])){
     $user = new User($username, $password);
 
     if (strlen($password) < 8){
-        echo json_encode("Please enter a password which is longer than 8 characters");
-    }
+        echo json_encode("Please enter a password which is longer than 8 characters" . $password);
 
-    try {
-        $result = UserManager::CreateAccount($user);
-        if ($result){
-            echo json_encode('work');
-        } else {
-            echo $result;
+    }
+    else{
+        try {
+            $result = UserManager::CreateAccount($user);
+            if ($result == 'work'){
+                echo json_encode('work');
+            } else {
+                echo json_encode($result);
+            }
+        } catch (Exception $exception) {
+            echo json_encode($exception->getMessage());
         }
-    } catch (Exception $exception) {
-        echo json_encode($exception->getMessage());
     }
 }
 else {

@@ -70,9 +70,9 @@ session_start();
 
     function createAccount(){
         try {
-            var username = document.getElementById('username').innerText;
-            var pass = document.getElementById('password').innerText;
-            var passVerify = document.getElementById('verifyPassword').innerText;
+            var username = document.getElementById('username').value;
+            var pass = document.getElementById('password').value;
+            var passVerify = document.getElementById('verifyPassword').value;
 
         } catch (e){
 
@@ -82,10 +82,12 @@ session_start();
             var xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200){
+                    //document.getElementById('errorCreateUser').innerHTML = this.responseText;
                     var content = JSON.parse(this.responseText);
 
                     if (content === "work"){
-                        openScreen('mainMenu.php');
+                        //openScreen('mainMenu.php');
+                        document.getElementById('errorCreateUser').innerText = content;
                     } else {
                         document.getElementById('errorCreateUser').innerText = content;
                     }
