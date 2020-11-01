@@ -57,12 +57,14 @@ class UserManager
         var_dump($statement);
         if ($statement->execute()){
             $dbUser = $statement->fetch(PDO::FETCH_ASSOC);
-            $statement->closeCursor();
 
             if (!isset($dbuser)){
                 var_dump($dbUser);
+                var_dump($statement);
+                var_dump($db);
                 throw new Exception("No: " . $user->name . ", " . $user->password);
             }
+            $statement->closeCursor();
 
             if (password_verify($user->password, $dbUser['pass'])){
                 $user->id = $dbUser['ID'];
