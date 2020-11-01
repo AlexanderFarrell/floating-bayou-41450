@@ -25,27 +25,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be963f67-c415-4fcf-9542-921f2d015823" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/Color.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/Entity.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/IEntityComponent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/IEntityContainer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/MapTile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/MapTileManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/MapTileType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/Player.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/Position.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/World.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GameProject/_Game/WorldTestInitializer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GameProject/_View/Login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GameProject/_View/loginForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameProject/_Data/DatabaseHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameProject/_LevelEditor/ChooseLevel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameProject/_View/MapSelector.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameProject/_Game/Game.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_Game/Game.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameProject/_Game/GameManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_Game/GameManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameProject/_Game/Map.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_Game/Map.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameProject/_View/GameDisplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_View/GameDisplay.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameProject/_View/_Stylesheets/GameStyleSheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_View/_Stylesheets/GameStyleSheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/levelEditor.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/levelEditor.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +69,7 @@
       <workItem from="1603236881321" duration="8812000" />
       <workItem from="1603348870062" duration="650000" />
       <workItem from="1603846478530" duration="837000" />
+      <workItem from="1604195399568" duration="1006000" />
     </task>
     <servers />
   </component>

@@ -3,7 +3,8 @@
     "ext-memcached": "*",
     "ext-redis": "*",
     "predis/predis": "*",
-    "ext-json": "*"
+    "ext-json": "*",
+    "ext-pdo": "*"
   },
   "name": "alexanderfarrell/floating-bayou"
 }

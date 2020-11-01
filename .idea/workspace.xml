@@ -25,8 +25,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94922c96-6074-42b1-9164-68f83ddf4e82" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/GameProject/_Game/Player.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/Player.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/_View/GameDisplayImages.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_View/GameDisplayImages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/_Data/DatabaseHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/_LevelEditor/ChooseLevel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/_View/MapSelector.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/levelEditor.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/levelEditor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/W6Group/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/W6Group/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +110,7 @@
       <workItem from="1603237485719" duration="1129000" />
       <workItem from="1604089047498" duration="1674000" />
       <workItem from="1604115958676" duration="9549000" />
-      <workItem from="1604156152208" duration="38806000" />
+      <workItem from="1604156152208" duration="40072000" />
     </task>
     <servers />
   </component>
@@ -133,10 +138,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="907" y="392" key="#PHP/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1601263042084" />
-    <state x="1075" y="409" key="#com.intellij.ide.util.MemberChooser" timestamp="1604193690841">
+    <state x="720" y="542" key="#SQL_Dialects" timestamp="1604196093339">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1075" y="409" key="#com.intellij.ide.util.MemberChooser/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604193690841" />
+    <state x="720" y="542" key="#SQL_Dialects/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604196093339" />
+    <state x="1075" y="409" key="#com.intellij.ide.util.MemberChooser" timestamp="1604195352296">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1075" y="409" key="#com.intellij.ide.util.MemberChooser/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604195352296" />
     <state x="1058" y="613" key="ComposerInitDialogKey" timestamp="1604089277820">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -145,14 +154,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="979" y="503" key="FileChooserDialogImpl/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602724097523" />
-    <state x="1101" y="423" key="NewPhpClassDialog" timestamp="1604193559535">
+    <state x="1101" y="423" key="NewPhpClassDialog" timestamp="1604195447666">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1101" y="423" key="NewPhpClassDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604193559535" />
-    <state x="1117" y="624" key="NewPhpFileDialog" timestamp="1604178228114">
+    <state x="1101" y="423" key="NewPhpClassDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604195447666" />
+    <state x="1117" y="624" key="NewPhpFileDialog" timestamp="1604195245268">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1117" y="624" key="NewPhpFileDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604178228114" />
+    <state x="1117" y="624" key="NewPhpFileDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604195245268" />
     <state x="700" y="393" key="SettingsEditor" timestamp="1601263235660">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
