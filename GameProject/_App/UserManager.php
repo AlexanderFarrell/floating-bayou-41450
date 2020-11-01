@@ -9,7 +9,7 @@ class UserManager
      */
     public static function getLoggedInUser()
     {
-        return $_SESSION['loguser'];
+        return (isset($_SESSION['loguser'])) ? $_SESSION['loguser'] : null;
     }
 
     private static function setLoggedInUser($user){

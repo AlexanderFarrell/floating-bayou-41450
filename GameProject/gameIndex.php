@@ -3,6 +3,8 @@
 require_once('_App/TemplateManager.php');
 require_once('_View/BaseView.php');
 require_once('_View/HeaderPage.php');
+require_once('_App/UserManager.php');
+require_once('_App/User.php');
 session_start();
 
 ?>
@@ -86,8 +88,7 @@ session_start();
                     var content = JSON.parse(this.responseText);
 
                     if (content === "work"){
-                        //openScreen('mainMenu.php');
-                        document.getElementById('errorCreateUser').innerText = content;
+                        openScreen('mainMenu.php');
                     } else {
                         document.getElementById('errorCreateUser').innerText = content;
                     }
@@ -216,6 +217,15 @@ session_start();
         </div>
         <div id="LoadingIndicator">
 
+        </div>
+        <div id="user">
+            <?php
+                $u = UserManager::getLoggedInUser();
+
+                if (isset($u)){
+                    echo "Logged in as " $u->name;
+                }
+            ?>
         </div>
     </div>
 
