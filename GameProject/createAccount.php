@@ -16,7 +16,7 @@ if (isset($_POST['username']) && isset( $_POST['password'])){
         try {
             $result = UserManager::CreateAccount($user);
             if ($result == 'work'){
-                echo json_encode('work');
+                echo json_encode('' . $user->name . ' ' . $user->password);
             } else {
                 echo json_encode($result);
             }
