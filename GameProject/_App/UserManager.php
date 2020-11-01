@@ -25,8 +25,8 @@ class UserManager
 
         $sql = "INSERT INTO users (name, pass) VALUES (:name, :password)";
         $statement = $db->prepare($sql);
-        $statement->bindValue(':user', $user->name, PDO::PARAM_STR);
-        $statement->bindValue(':user', static::HashPassword($user->pass), PDO::PARAM_STR);
+        $statement->bindValue(':name', $user->name, PDO::PARAM_STR);
+        $statement->bindValue(':password', static::HashPassword($user->pass), PDO::PARAM_STR);
 
         if ($statement->execute()){
             $newId = $db->lastInsertId();
