@@ -58,7 +58,11 @@ class UserManager
             $dbUser = $statement->fetch(PDO::FETCH_ASSOC);
             $statement->closeCursor();
 
-            if (isset($dbUser) && password_verify($user->password, $dbUser['pass'])){
+            if (!isset($dbuser)){
+                throw new Exception("No");
+            }
+
+            if (password_verify($user->password, $dbUser['pass'])){
                 $user->id = $dbUser['ID'];
                 $user->password = '';
                 self::setLoggedInUser($user);
