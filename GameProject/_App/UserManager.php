@@ -51,14 +51,16 @@ class UserManager
             throw new Exception("Error connecting to server");
         }
 
-        $sql = "SELECT * FROM users WHERE name = ':name'";
+        $sql = "SELECT * FROM users WHERE name = :namess";
         $statement = $db->prepare($sql);
-        $statement->bindValue(':name', $user->name, PDO::PARAM_STR);
+        $statement->bindValue(':namess', $user->name, PDO::PARAM_STR);
+        var_dump($statement);
         if ($statement->execute()){
             $dbUser = $statement->fetch(PDO::FETCH_ASSOC);
             $statement->closeCursor();
 
             if (!isset($dbuser)){
+                var_dump($dbUser);
                 throw new Exception("No: " . $user->name . ", " . $user->password);
             }
 
