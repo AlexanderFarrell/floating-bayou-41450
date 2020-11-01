@@ -4,11 +4,13 @@ require_once '_View/HeaderPage.php';
 require_once '_View/GameDisplay.php';
 require_once '_View/KeyDetailDisplay.php';
 require_once '_View/GameControlsView.php';
+require_once '_View/GameDisplayImages.php';
 
 class TemplateManager
 {
     private static $header;
     private static $gameDisplay;
+    private static $gameDisplayImages;
     private static $keyDetailDisplay;
     private static $gameControls;
 
@@ -26,6 +28,14 @@ class TemplateManager
         }
 
         return static::$gameDisplay;
+    }
+
+    public static function GetGameDisplayImages(){
+        if (static::$gameDisplayImages == null){
+            static::$gameDisplayImages = new GameDisplayImages();
+        }
+
+        return static::$gameDisplayImages;
     }
 
     public static function GetKeyDetailDisplay(){

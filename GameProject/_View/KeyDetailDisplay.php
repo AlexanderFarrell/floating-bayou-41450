@@ -6,7 +6,9 @@ class KeyDetailDisplay extends BaseView
 {
     public function getHtml()
     {
-        $playerKey = GameManager::GetGame()->getPlayerEntity()->getCharacter();
+        return "";
+
+        /*$playerKey = GameManager::GetGame()->getPlayerEntity()->getCharacter();
         $content = '<div class="centerText">';
         $content .= 'Player: ' . $playerKey . '<br>';
 
@@ -19,6 +21,6 @@ class KeyDetailDisplay extends BaseView
 
         $content .= '</div>';
 
-        return $content;
+        return $content;*/
     }
 }

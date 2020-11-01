@@ -14,7 +14,7 @@ MapTileManager::Clear();
     <div id="mainMenuButtons" class="mt-auto p-2">
         <button class="btn-primary btn-block menuButton" onclick="startGame()">New Game</button>
         <button class="btn-primary btn-block menuButton" onclick="openLevelEditor()">Level Editor</button>
-        <button class="btn-primary btn-block menuButton" onclick="openSettingsMenu()">Settings</button>
+        <button class="btn-primary btn-block menuButton" onclick="openSettings()">Settings</button>
     </div>
 </div>
 

@@ -1,0 +1,3 @@
+<?php
+
+GameManager::GetGame();

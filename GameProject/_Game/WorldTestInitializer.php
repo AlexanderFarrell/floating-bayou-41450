@@ -17,9 +17,12 @@ class WorldTestInitializer
 
     public static function GenerateTestWorld(){
         $world = GameManager::GetGame()->getWorld();
-        $grass = new MapTileType("Grass", ".", new Color(10, 128, 10));
-        $rock = new MapTileType("Tall Grass", ":", new Color(8, 156, 8));
-        $tallGrass = new MapTileType("Rock", "@", new Color(255, 128, 0));
+        $grass = new MapTileType("Grass", ".", new Color(10, 128, 10), '_Content/Grass.png');
+        $rock = new MapTileType("Tall Grass", ":", new Color(8, 156, 8), '_Content/Rock.png');
+        $tallGrass = new MapTileType("Rock", "@", new Color(255, 128, 0), '_Content/TallGrass.png');
+        $grass->index = 0;
+        $rock->index = 1;
+        $tallGrass->index = 2;
         MapTileManager::AddNewType($grass);
         MapTileManager::AddNewType($tallGrass);
         MapTileManager::AddNewType($rock);

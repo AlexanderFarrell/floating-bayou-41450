@@ -7,9 +7,7 @@ class MapTile
     private $tileType;
     private $x;
     private $y;
-    private $entities = array();
-    public $overrideChar;
-    private $entityCount;
+    public $overrideImage;
 
     /**
      * MapTile constructor.
@@ -31,16 +29,7 @@ class MapTile
         $this->tileType = $tileType;
         $this->x = $x;
         $this->y = $y;
-        $this->entityCount = 0;
-        $this->overrideChar = null;
-    }
-
-    /**
-     * @return int
-     */
-    public function getEntityCount()
-    {
-        return $this->entityCount;
+        $this->overrideImage = null;
     }
 
     /**
@@ -51,28 +40,6 @@ class MapTile
     {
         $this->tileType = $tileType;
         return $this;
-    }
-
-    public function addEntity($entity){
-        array_push($this->entities, $entity);
-        $this->entityCount++;
-    }
-
-    public function removeEntity($entity) {
-        $key = array_search($entity, $this->entities);
-        unset($key, $this->entities);
-        $this->entityCount--;
-    }
-
-    /**
-     * @return array
-     */
-    public function getEntities()
-    {
-        if ($this->entities == null){
-            $this->entities = array();
-        }
-        return $this->entities;
     }
 
     /**

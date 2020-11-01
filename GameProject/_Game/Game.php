@@ -65,7 +65,7 @@ class Game
         }
 
         $this->player = $player;
-        $this->playerEntity = new Entity($position, "$");
+        $this->playerEntity = new Entity($position);
         $this->world->addEntity($this->playerEntity);
         $this->playerEntity->addComponent($player);
     }

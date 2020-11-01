@@ -11,9 +11,15 @@ class MapTileManager
             $_SESSION['tileTypes'] = array();
         }
 
-        var_dump($_SESSION['tileTypes']);
-
         return $_SESSION['tileTypes'];
+    }
+
+    public static function getTileTypesCookie(){
+        if (!isset($_COOKIE['tileTypes'])){
+            setcookie('tileTypes', json_encode($_SESSION['tileTypes']), time() + (86400));
+        }
+
+        return $_COOKIE['tileTypes'];
     }
 
     public static function GetTypeAtIndex($index){

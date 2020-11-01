@@ -46,7 +46,6 @@ class HeaderPage extends BaseView
                     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
                         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" 
                         crossorigin="anonymous"></script>
-                    <script type="text/javascript" src="_View/OnClickHandler.js"></script>
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
                 </head>';
     }

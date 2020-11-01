@@ -7,24 +7,66 @@ session_start();
 
 ?>
 
-
 <!DOCTYPE HTML>
 <html lang="en">
     <?php
         TemplateManager::GetHeader()->drawHtml();
         echo '<body ';
         if (isset($_SESSION['game'])){
-            echo 'onload="startGame()"';
+            echo 'onload="openScreen(\'gameplay.php\')"';
         }
         else {
             echo 'onload="endGame()"';
         }
         echo '>';
     ?>
+    <script src="_View/TileRenderer.js"></script>
+    <script src="_View/CookieHandler.js"></script>
 <script type="text/javascript">
     var inputSelection = 0;
 
+    function openScreen(screen, data = null){
+        var content = document.getElementById('GameContent');
+        var loadingIndicator = document.getElementById('LoadingIndicator');
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200){
+                content.innerHTML = this.responseText;
+                loadingIndicator.innerHTML = '';
+            }
+        }
+
+        xhttp.open('POST', screen, true);
+        loadingIndicator.innerHTML = 'Loading...';
+        xhttp.setRequestHeader("Content-type", 'application/x-www-form-urlencoded');
+        xhttp.send(data);
+    }
+
+    function openSettings(){
+        openScreen('settings.php');
+    }
+
+    function openLevelEditor(){
+        openScreen('levelEditor.php');
+    }
+
+    function startGame(){
+        openScreen('gameplay.php');
+    }
+
     function endGame(){
+        openScreen('mainMenu.php');
+    }
+
+    function setInputSelection(selectionID){
+        inputSelection = selectionID;
+    }
+
+    function takeTurn(selectionID){
+        openScreen('gameplay.php', 'input=' + selectionID);
+    }
+
+    /*function endGame(){
         var content = document.getElementById('GameContent');
         var loadingIndicator = document.getElementById('LoadingIndicator');
         var xhttp = new XMLHttpRequest();
@@ -106,7 +148,7 @@ session_start();
         loadingIndicator.innerHTML = 'Loading...';
         xhttp.setRequestHeader("Content-type", 'application/x-www-form-urlencoded');
         xhttp.send("input=" + encodeURIComponent(inputSelection));
-    }
+    }*/
 
     /*function takeTurnAndRefreshScreen(){
         const content = document.getElementById('GameContent');
@@ -130,9 +172,14 @@ session_start();
     }*/
     </script>
 
-    <div class="container backgroundCenter">
-        <div id="GameContent">Game Starting...</div>
-        <div id="LoadingIndicator"></div>
+    <div class="backgroundCenter">
+        <div id="GameContent">
+            Game Starting...
+        </div>
+        <div id="LoadingIndicator">
+
+        </div>
     </div>
+
 </body>
 </html>

@@ -11,6 +11,7 @@ class Entity implements IEntityContainer
     private $components;
     private $character;
     public $currentTile;
+    public $imageName;
 
     /**
      * @return string
@@ -50,7 +51,7 @@ class Entity implements IEntityContainer
         }*/
 
         if ($this->currentTile != null){
-            $this->currentTile->overrideChar = null;
+            $this->currentTile->overrideImage = null;
         }
 
         $this->position = $position;
@@ -58,8 +59,7 @@ class Entity implements IEntityContainer
         $this->currentTile = GameManager::GetGame()->getWorld()->getMap()->getTileAt($position->getX(), $position->getY());
 
         if ($this->currentTile != null){
-            //$newTile->addEntity($this);
-            $this->currentTile->overrideChar = $this->character;
+            $this->currentTile->overrideImage = $this->imageName;
         }
     }
 
@@ -68,7 +68,7 @@ class Entity implements IEntityContainer
      * @param $position
      * @throws Exception
      */
-    public function __construct($position, $character)
+    public function __construct($position)
     {
         if (!$position instanceof Position){
             throw new Exception("Position must be a Position");
@@ -76,12 +76,11 @@ class Entity implements IEntityContainer
 
         $this->position = $position;
         $this->components = array();
-        $this->character = $character;
 
-        $newTile = GameManager::GetGame()->getWorld()->getMap()->getTileAt($position->getX(), $position->getY());
+        $this->currentTile = GameManager::GetGame()->getWorld()->getMap()->getTileAt($position->getX(), $position->getY());
 
-        if ($newTile != null){
-            $newTile->addEntity($this);
+        if ($this->currentTile != null){
+            $this->currentTile->overrideImage = $this->imageName;
         }
     }
 
@@ -121,5 +120,10 @@ class Entity implements IEntityContainer
     public function getCharacter()
     {
         return $this->character;
+    }
+
+    public function setImageName($image)
+    {
+        $this->imageName = $image;
     }
 }

@@ -2,10 +2,12 @@
 
 require_once("Color.php");
 
-class MapTileType
+class MapTileType implements \JsonSerializable
 {
     private $name;
     private $character;
+    public $index;
+    public $filename;
 
     /**
      * @return string
@@ -62,7 +64,7 @@ class MapTileType
      * @param $character - Char, a character drawn when the map is rendered
      * @param $color - Color, a color which the character is when drawn.
      */
-    public function __construct($name, $character, $color)
+    public function __construct($name, $character, $color, $filename)
     {
         /*if (!is_string($name)){
             throw new Exception("Name must be a string for MapTileType");
@@ -75,5 +77,14 @@ class MapTileType
         $this->name = $name;
         $this->character = $character;
         $this->color = $color;
+        $this->filename = $filename;
+    }
+
+    public function jsonSerialize()
+    {
+        return [
+            'name' => $this->name,
+            'filename' => $this->filename
+            ];
     }
 }

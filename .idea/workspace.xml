@@ -25,25 +25,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94922c96-6074-42b1-9164-68f83ddf4e82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GameProject/_Content/Grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameProject/_Content/Rock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameProject/_Content/TallGrass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameProject/_View/CookieManager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameProject/_View/LoadTiles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameProject/_View/_Stylesheets/MainGameTheme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameProject/levelEditor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameProject/mainMenu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameProject/settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/_Content/Abyss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/_Content/Food.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/_Content/Player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/_Game/Food.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/_View/CookieHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/_View/GameDisplayImages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/_View/TileRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/endGame.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/loadingScreen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/startGame.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/_Game/Color.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/Color.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/_Game/GameManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/GameManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_App/TemplateManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_App/TemplateManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_Content/Rock.png" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Content/Rock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_Game/Entity.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/Entity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_Game/Game.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/Game.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_Game/IEntityContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/IEntityContainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_Game/MapTile.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/MapTile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProject/_Game/MapTileManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/MapTileManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_Game/MapTileType.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/MapTileType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_Game/Player.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/Player.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProject/_Game/WorldTestInitializer.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/WorldTestInitializer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/_View/GameDisplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_View/GameDisplay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_View/CookieManager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_View/GameControlsView.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_View/GameControlsView.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProject/_View/HeaderPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_View/HeaderPage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_View/KeyDetailDisplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_View/KeyDetailDisplay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_View/LoadTiles.js" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_View/_ClientScripts/LoadTiles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProject/_View/_Stylesheets/GameStyleSheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_View/_Stylesheets/GameStyleSheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/gameContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/gameContent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/gameContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/gameplay.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProject/gameIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/gameIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/mainMenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/mainMenu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +73,7 @@
       <list>
         <option value="composer.json" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -82,18 +95,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\CS313 2\W2\GameProject\_Content" />
+      <recent name="C:\CS313 2\W2\GameProject\_View" />
+      <recent name="C:\CS313 2\W2\GameProject\_ClientScripts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -117,7 +134,7 @@
       <workItem from="1603237485719" duration="1129000" />
       <workItem from="1604089047498" duration="1674000" />
       <workItem from="1604115958676" duration="9549000" />
-      <workItem from="1604156152208" duration="17332000" />
+      <workItem from="1604156152208" duration="38618000" />
     </task>
     <servers />
   </component>
@@ -145,10 +162,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="907" y="392" key="#PHP/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1601263042084" />
-    <state x="1075" y="409" key="#com.intellij.ide.util.MemberChooser" timestamp="1604158574919">
+    <state x="1075" y="409" key="#com.intellij.ide.util.MemberChooser" timestamp="1604193690841">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1075" y="409" key="#com.intellij.ide.util.MemberChooser/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604158574919" />
+    <state x="1075" y="409" key="#com.intellij.ide.util.MemberChooser/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604193690841" />
     <state x="1058" y="613" key="ComposerInitDialogKey" timestamp="1604089277820">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -157,10 +174,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="979" y="503" key="FileChooserDialogImpl/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602724097523" />
-    <state x="1117" y="624" key="NewPhpFileDialog" timestamp="1604166429565">
+    <state x="1101" y="423" key="NewPhpClassDialog" timestamp="1604193559535">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1117" y="624" key="NewPhpFileDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604166429565" />
+    <state x="1101" y="423" key="NewPhpClassDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604193559535" />
+    <state x="1117" y="624" key="NewPhpFileDialog" timestamp="1604178228114">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1117" y="624" key="NewPhpFileDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604178228114" />
     <state x="700" y="393" key="SettingsEditor" timestamp="1601263235660">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -173,6 +194,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="297" y="443" width="1936" height="999" key="dock-window-2/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604167201839" />
+    <state x="-1920" y="1069" width="1936" height="1108" key="dock-window-3" timestamp="1604185622431">
+      <screen x="-1920" y="1069" width="1920" height="1020" />
+    </state>
+    <state x="-1920" y="1069" width="1936" height="1108" key="dock-window-3/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604185622431" />
+    <state x="1273" y="0" width="1293" height="1407" key="dock-window-4" timestamp="1604192372545">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1273" y="0" width="1293" height="1407" key="dock-window-4/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604192372545" />
     <state x="987" y="433" width="587" height="534" key="find.popup" timestamp="1604156247226">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

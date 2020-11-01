@@ -10,4 +10,5 @@ interface IEntityContainer
     public function getComponent($type);
     public function addComponent($component);
     public function removeComponent($type);
+    public function setImageName($image);
 }

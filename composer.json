@@ -2,7 +2,8 @@
   "require": {
     "ext-memcached": "*",
     "ext-redis": "*",
-    "predis/predis": "*"
+    "predis/predis": "*",
+    "ext-json": "*"
   },
   "name": "alexanderfarrell/floating-bayou"
 }

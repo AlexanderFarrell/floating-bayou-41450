@@ -1,11 +1,10 @@
 <?php
 
-require_once("IEntityComponent.php");
+require_once 'IEntityComponent.php';
 
-class Player implements IEntityComponent
+class Food implements IEntityComponent
 {
     private $container;
-    public $hunger;
 
     public function SetContainer($container)
     {
@@ -14,7 +13,7 @@ class Player implements IEntityComponent
 
     public function Start()
     {
-        $this->container->setImageName('_Content/player.png');
+
     }
 
     public function TakeTurn()
