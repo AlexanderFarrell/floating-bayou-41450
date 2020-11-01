@@ -25,8 +25,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be963f67-c415-4fcf-9542-921f2d015823" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../GameProject/loginScreen.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/_View/_Stylesheets/GameStyleSheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_View/_Stylesheets/GameStyleSheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GameProject/gameIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/gameIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/loginUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/loginUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/mainMenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/mainMenu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

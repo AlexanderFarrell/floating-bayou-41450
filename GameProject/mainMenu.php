@@ -14,8 +14,8 @@ MapTileManager::Clear();
     <div id="mainMenuButtons" class="mt-auto p-2">
         <button class="btn-primary btn-block menuButton" onclick="startGame()">New Game</button>
         <button class="btn-primary btn-block menuButton" onclick="openScreen('createUserScreen.php')">Create Account</button>
+        <button class="btn-primary btn-block menuButton" onclick="openScreen('loginScreen.php')">Login</button>
         <button class="btn-primary btn-block menuButton" onclick="openLevelEditor()">Level Editor</button>
-        <button class="btn-primary btn-block menuButton" onclick="openSettings()">Settings</button>
     </div>
 </div>
 

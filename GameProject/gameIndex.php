@@ -45,6 +45,33 @@ session_start();
     }
 
 
+    function login(){
+        try {
+            var username = document.getElementById('username').value;
+            var pass = document.getElementById('password').value;
+
+        } catch (e){
+            document.getElementById('errorCreateUser').innerText = "Please enter fields";
+        }
+
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200){
+                //document.getElementById('errorCreateUser').innerHTML = this.responseText;
+                var content = JSON.parse(this.responseText);
+
+                if (content === "success"){
+                    openScreen('mainMenu.php');
+                } else {
+                    document.getElementById('errorCreateUser').innerText = content;
+                }
+            }
+        }
+
+        xhttp.open('POST', 'loginUser.php', true);
+        xhttp.setRequestHeader("Content-type", 'application/x-www-form-urlencoded');
+        xhttp.send('username=' + encodeURIComponent(username) + '&' + 'password=' + encodeURIComponent(pass));
+    }
 
     function openSettings(){
         openScreen('settings.php');
@@ -211,21 +238,24 @@ session_start();
     }*/
     </script>
 
+    <div id="LoadingIndicator" class="extra">
+
+    </div>
+    <div id="user" class="extra">
+        <?php
+        $u = UserManager::getLoggedInUser();
+
+        if (isset($u)){
+            echo "Logged in as " . $u->name;
+        }
+        else {
+            echo "Not logged in";
+        }
+        ?>
+    </div>
     <div class="backgroundCenter">
         <div id="GameContent">
             Game Starting...
-        </div>
-        <div id="LoadingIndicator">
-
-        </div>
-        <div id="user">
-            <?php
-                $u = UserManager::getLoggedInUser();
-
-                if (isset($u)){
-                    echo "Logged in as " $u->name;
-                }
-            ?>
         </div>
     </div>
 

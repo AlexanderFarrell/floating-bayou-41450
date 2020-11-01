@@ -35,3 +35,9 @@
     margin: 0 auto;
     border-collapse: collapse;
 }
+
+.extra {
+    position: absolute;
+    margin-bottom: 0;
+    margin-top: auto;
+}
