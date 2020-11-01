@@ -1,5 +1,6 @@
 <?php
 
+require_once '_Data/DatabaseHandler.php';
 $connection = null;
 
 try {

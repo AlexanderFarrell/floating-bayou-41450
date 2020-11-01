@@ -25,13 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94922c96-6074-42b1-9164-68f83ddf4e82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GameProject/_Data/DatabaseHandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameProject/_LevelEditor/ChooseLevel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameProject/_View/MapSelector.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_Data/DatabaseHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Data/DatabaseHandler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProject/levelEditor.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/levelEditor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W6Group/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/W6Group/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +105,7 @@
       <workItem from="1603237485719" duration="1129000" />
       <workItem from="1604089047498" duration="1674000" />
       <workItem from="1604115958676" duration="9549000" />
-      <workItem from="1604156152208" duration="40072000" />
+      <workItem from="1604156152208" duration="40245000" />
     </task>
     <servers />
   </component>
