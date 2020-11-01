@@ -58,12 +58,14 @@ class UserManager
             $dbUser = $statement->fetch(PDO::FETCH_ASSOC);
             $statement->closeCursor();
 
-            if (isset($dbUser) && password_verify(self::HashPassword($user->password), $dbUser['pass'])){
+
+
+            if (isset($dbUser) && password_verify(static::HashPassword($user->password), $dbUser['pass'])){
                 $user->id = $dbUser['ID'];
                 $user->pass = '';
                 self::setLoggedInUser($user);
             } else {
-                throw new Exception("Username or Password are incorrect.");
+                throw new Exception("Username or Password are incorrect." . $user->name . static::HashPassword($user->pass) . '<br>' . $dbUser['pass'] . $dbUser['name']);
             }
         }
         else {
