@@ -51,28 +51,33 @@ class UserManager
             throw new Exception("Error connecting to server");
         }
 
-        $sql = "SELECT * FROM users WHERE name = :name";
-        $statement = $db->prepare($sql);
-        $statement->bindValue(':name', $user->name, PDO::PARAM_STR);
-        if ($statement->execute()){
-            $dbUser = $statement->fetch(PDO::FETCH_ASSOC);
+        try {
+            $sql = "SELECT * FROM users WHERE name = :name";
+            $statement = $db->prepare($sql);
+            $statement->bindValue(':name', $user->name, PDO::PARAM_STR);
+            if ($statement->execute()){
+                $dbUser = $statement->fetch(PDO::FETCH_ASSOC);
 
-            if (!isset($dbuser)){
-                var_dump($dbUser);
-                var_dump($statement);
-                var_dump($db);
-                throw new Exception("No: " . $user->name . ", " . $user->password);
-            }
-            $statement->closeCursor();
+                if (!isset($dbuser)){
+                    var_dump($dbUser);
+                    var_dump($statement);
+                    var_dump($db);
+                    throw new Exception("No: " . $user->name . ", " . $user->password);
+                }
+                $statement->closeCursor();
 
-            if (password_verify($user->password, $dbUser['pass'])){
-                $user->id = $dbUser['ID'];
-                $user->password = '';
-                self::setLoggedInUser($user);
-            } else {
-                throw new Exception("Username or Password are incorrect.");
+                if (password_verify($user->password, $dbUser['pass'])){
+                    $user->id = $dbUser['ID'];
+                    $user->password = '';
+                    self::setLoggedInUser($user);
+                } else {
+                    throw new Exception("Username or Password are incorrect.");
+                }
             }
+        } catch (Exception $e){
+            throw $e;
         }
+
         else {
             throw new Exception("Error retrieving data from server");
         }
