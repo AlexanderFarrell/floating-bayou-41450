@@ -25,13 +25,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be963f67-c415-4fcf-9542-921f2d015823" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../GameProject/_Data/DatabaseHandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GameProject/_LevelEditor/ChooseLevel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GameProject/_View/MapSelector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameProject/_App/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameProject/_App/UserManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameProject/createAccount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameProject/createUserScreen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GameProject/loginUser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GameProject/levelEditor.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/levelEditor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/gameIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/gameIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/mainMenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/mainMenu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,7 @@
       <workItem from="1603236881321" duration="8812000" />
       <workItem from="1603348870062" duration="650000" />
       <workItem from="1603846478530" duration="837000" />
-      <workItem from="1604195399568" duration="1006000" />
+      <workItem from="1604195399568" duration="1632000" />
     </task>
     <servers />
   </component>

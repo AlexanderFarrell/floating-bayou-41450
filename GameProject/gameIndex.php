@@ -42,6 +42,8 @@ session_start();
         xhttp.send(data);
     }
 
+
+
     function openSettings(){
         openScreen('settings.php');
     }
@@ -64,6 +66,40 @@ session_start();
 
     function takeTurn(selectionID){
         openScreen('gameplay.php', 'input=' + selectionID);
+    }
+
+    function createAccount(){
+        try {
+            var username = document.getElementById('username').innerText;
+            var pass = document.getElementById('password').innerText;
+            var passVerify = document.getElementById('verifyPassword').innerText;
+
+        } catch (e){
+
+        }
+
+        if (pass === passVerify){
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200){
+                    var content = JSON.parse(this.responseText);
+
+                    if (content === "work"){
+                        openScreen('mainMenu.php');
+                    } else {
+                        document.getElementById('errorCreateUser').innerText = content;
+                    }
+                }
+            }
+
+            xhttp.open('POST', 'createAccount.php', true);
+            xhttp.setRequestHeader("Content-type", 'application/x-www-form-urlencoded');
+            xhttp.send('username=' + encodeURIComponent(username) + '&' + 'password=' + encodeURIComponent(pass));
+        }
+        else
+        {
+            document.getElementById('errorCreateUser').innerText = "Passwords must match";
+        }
     }
 
     /*function endGame(){
