@@ -14,7 +14,7 @@ class Player implements IEntityComponent
 
     public function Start()
     {
-        $this->container->setImageName('_Content/player.png');
+        $this->container->setImageName('_Content/Player.png');
     }
 
     public function TakeTurn()

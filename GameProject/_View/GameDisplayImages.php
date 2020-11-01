@@ -96,7 +96,7 @@ class GameDisplayImages extends BaseView
                     $alt = $tile->getTileType()->getName();
                 }
                 else{
-                    $image = '_Content/abyss.png';
+                    $image = '_Content/Abyss.png';
                     $alt = 'abyss';
                 }
                 $content .= '<img src="' . $image . '" alt="' . $alt . '">';
