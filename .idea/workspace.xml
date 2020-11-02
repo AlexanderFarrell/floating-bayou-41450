@@ -25,10 +25,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94922c96-6074-42b1-9164-68f83ddf4e82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GameProject/AddMap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/_App/UserManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_App/UserManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_Content/TallGrass.png" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Content/tall.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_Game/Entity.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/Entity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_Game/Game.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/Game.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_Game/MapTileManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/MapTileManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_Game/Player.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/Player.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_Game/World.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/World.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_Game/WorldTestInitializer.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/WorldTestInitializer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_View/BaseView.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_View/BaseView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/_View/KeyDetailDisplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_View/KeyDetailDisplay.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProject/gameIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/gameIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/gameplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/gameplay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SessionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/SessionTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/W6Group/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/W6Group/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +121,8 @@
       <workItem from="1603237485719" duration="1129000" />
       <workItem from="1604089047498" duration="1674000" />
       <workItem from="1604115958676" duration="9549000" />
-      <workItem from="1604156152208" duration="52793000" />
+      <workItem from="1604156152208" duration="56403000" />
+      <workItem from="1604342238573" duration="3127000" />
     </task>
     <servers />
   </component>
@@ -144,10 +158,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="873" y="359" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604196860846" />
-    <state x="1075" y="409" key="#com.intellij.ide.util.MemberChooser" timestamp="1604198361776">
+    <state x="1075" y="409" key="#com.intellij.ide.util.MemberChooser" timestamp="1604211291841">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1075" y="409" key="#com.intellij.ide.util.MemberChooser/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604198361776" />
+    <state x="1075" y="409" key="#com.intellij.ide.util.MemberChooser/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604211291841" />
     <state x="1058" y="613" key="ComposerInitDialogKey" timestamp="1604089277820">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -156,14 +170,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="979" y="503" key="FileChooserDialogImpl/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1602724097523" />
-    <state x="1101" y="423" key="NewPhpClassDialog" timestamp="1604197536494">
+    <state x="1101" y="423" key="NewPhpClassDialog" timestamp="1604209345162">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1101" y="423" key="NewPhpClassDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604197536494" />
-    <state x="1117" y="624" key="NewPhpFileDialog" timestamp="1604205815319">
+    <state x="1101" y="423" key="NewPhpClassDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604209345162" />
+    <state x="1117" y="624" key="NewPhpFileDialog" timestamp="1604209281942">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1117" y="624" key="NewPhpFileDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604205815319" />
+    <state x="1117" y="624" key="NewPhpFileDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604209281942" />
     <state x="700" y="393" key="SettingsEditor" timestamp="1601263235660">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -196,10 +210,11 @@
       <screen x="-1920" y="1069" width="1920" height="1020" />
     </state>
     <state x="-1920" y="1069" width="1936" height="960" key="dock-window-7/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604204475260" />
-    <state x="987" y="433" width="587" height="534" key="find.popup" timestamp="1604195135006">
+    <state x="987" y="433" width="587" height="592" key="find.popup" timestamp="1604346668631">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="987" y="433" width="587" height="534" key="find.popup/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604195135006" />
+    <state x="987" y="433" width="587" height="592" key="find.popup/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604212059761" />
+    <state x="987" y="433" width="587" height="592" key="find.popup/-1920.1082.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604346668631" />
     <state x="937" y="331" key="run.anything.popup" timestamp="1604204067105">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

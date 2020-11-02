@@ -2,8 +2,6 @@
 
 require_once("MapTileType.php");
 
-session_start();
-
 class MapTileManager
 {
     private static function getTileTypesLoaded(){

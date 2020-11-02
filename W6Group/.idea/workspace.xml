@@ -24,7 +24,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be963f67-c415-4fcf-9542-921f2d015823" name="Default Changelist" comment="" />
+    <list default="true" id="be963f67-c415-4fcf-9542-921f2d015823" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../GameProject/AddMap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/_Content/TallGrass.png" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_Content/tall.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/_Game/Entity.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_Game/Entity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/_Game/Game.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_Game/Game.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/_Game/Player.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_Game/Player.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/_Game/World.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_Game/World.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/_Game/WorldTestInitializer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_Game/WorldTestInitializer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/_View/BaseView.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_View/BaseView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/_View/KeyDetailDisplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/_View/KeyDetailDisplay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/gameIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/gameIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GameProject/gameplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GameProject/gameplay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../composer.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +77,7 @@
       <workItem from="1603236881321" duration="8812000" />
       <workItem from="1603348870062" duration="650000" />
       <workItem from="1603846478530" duration="837000" />
-      <workItem from="1604195399568" duration="2830000" />
+      <workItem from="1604195399568" duration="2831000" />
     </task>
     <servers />
   </component>

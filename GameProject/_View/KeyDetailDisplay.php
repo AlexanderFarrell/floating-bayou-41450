@@ -6,7 +6,12 @@ class KeyDetailDisplay extends BaseView
 {
     public function getHtml()
     {
-        return "";
+        $content = "";
+        $content .= "Hunger - Turns Left: " . GameManager::GetGame()->getPlayer()->hunger . '<br>';
+        $content .= 'Elapsed Turns: ' . GameManager::GetGame()->getWorld()->turns . '<br>';
+        $content .= 'X: ' . GameManager::GetGame()->getPlayerEntity()->getPosition()->getX() . '<br>';
+        $content .= 'Y: ' . GameManager::GetGame()->getPlayerEntity()->getPosition()->getY() . '<br>';
+        return $content;
 
         /*$playerKey = GameManager::GetGame()->getPlayerEntity()->getCharacter();
         $content = '<div class="centerText">';

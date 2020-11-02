@@ -20,10 +20,10 @@
                 "reference": "9930e933c67446962997b05201c69c2319bf26de",
                 "shasum": ""
             },
-            "require": {
+            "require_once": {
                 "php": ">=5.3.9"
             },
-            "require-dev": {
+            "require_once-dev": {
                 "cweagans/composer-patches": "^1.6",
                 "phpunit/phpunit": "~4.8"
             },

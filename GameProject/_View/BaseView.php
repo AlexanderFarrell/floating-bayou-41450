@@ -1,6 +1,5 @@
 <?php
 
-
 abstract class BaseView
 {
     abstract public function getHtml();

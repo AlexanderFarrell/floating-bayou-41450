@@ -3,6 +3,7 @@
 require_once("Position.php");
 require_once("IEntityContainer.php");
 require_once("IEntityComponent.php");
+require_once 'Player.php';
 
 class Entity implements IEntityContainer
 {
@@ -68,7 +69,7 @@ class Entity implements IEntityContainer
      * @param $position
      * @throws Exception
      */
-    public function __construct($position)
+    public function __construct($position, $imageName)
     {
         if (!$position instanceof Position){
             throw new Exception("Position must be a Position");
@@ -76,6 +77,7 @@ class Entity implements IEntityContainer
 
         $this->position = $position;
         $this->components = array();
+        $this->imageName = $imageName;
 
         $this->currentTile = GameManager::GetGame()->getWorld()->getMap()->getTileAt($position->getX(), $position->getY());
 

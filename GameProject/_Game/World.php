@@ -9,6 +9,8 @@ class World
     private $map;
     private $entities;
 
+    public $turns = 0;
+
     /**
      * @return array
      */
@@ -36,6 +38,8 @@ class World
     }
 
     public function ProcessTurn(){
+
+        $this->turns += 1;
         foreach ($this->entities as $entity){
             $entity->TakeTurn();
         }

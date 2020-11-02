@@ -1,10 +1,36 @@
 <?php
 
-require_once('_App/TemplateManager.php');
+/*require_once('_App/TemplateManager.php');
 require_once('_View/BaseView.php');
 require_once('_View/HeaderPage.php');
 require_once('_App/UserManager.php');
 require_once('_App/User.php');
+require_once '_Game/Entity.php';
+
+require_once '_App/TemplateManager.php';
+require_once '_View/BaseView.php';
+require_once '_View/GameControlsView.php';
+require_once '_View/GameDisplay.php';
+require_once '_View/KeyDetailDisplay.php';
+
+require_once '_Game/GameManager.php';
+require_once '_Game/Game.php';
+
+require_once '_Game/Entity.php';
+require_once '_Game/Position.php';
+require_once '_Game/World.php';
+require_once '_Game/Player.php';*/
+spl_autoload_register ( function ($class) {
+
+    $sources = array("_App/$class.php", "_Data/$class.php", "_Game/$class.php", "_LevelEditor/$class.php", "_View/$class.php ");
+
+    foreach ($sources as $source) {
+        if (file_exists($source)) {
+            require_once $source;
+        }
+    }
+});
+
 session_start();
 
 ?>

@@ -9,9 +9,10 @@ require_once '_View/KeyDetailDisplay.php';
 require_once '_Game/GameManager.php';
 require_once '_Game/Game.php';
 
-//Delete these`
 require_once '_Game/Entity.php';
 require_once '_Game/Position.php';
+require_once '_Game/World.php';
+require_once '_Game/Player.php';
 
 $game = GameManager::GetGame();
 
@@ -37,6 +38,8 @@ if (isset($_POST['input'])){
         default:
             break;
     }
+
+    $game->getWorld()->ProcessTurn();
 }
 ?>
 
@@ -52,7 +55,7 @@ if (isset($_POST['input'])){
             <?php //TemplateManager::GetGameDisplayImages()->drawHtml(); ?>
         </div>
         <div class="p-2">
-            <?php //TemplateManager::GetKeyDetailDisplay()->drawHtml(); ?>
+            <?php TemplateManager::GetKeyDetailDisplay()->drawHtml(); ?>
         </div>
     </div>
 
