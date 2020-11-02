@@ -10,6 +10,7 @@ class Game
     private $world;
     private $player;
     private $playerEntity;
+    public $active;
 
     /**
      * @return Entity
@@ -35,6 +36,7 @@ class Game
     public function __construct()
     {
         $this->world = new World();
+        $this->active = true;
     }
 
     /**

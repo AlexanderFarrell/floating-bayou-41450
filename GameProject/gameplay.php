@@ -1,24 +1,38 @@
 <?php
+spl_autoload_register ( function ($class) {
 
-require_once '_App/TemplateManager.php';
-require_once '_View/BaseView.php';
-require_once '_View/GameControlsView.php';
-require_once '_View/GameDisplay.php';
-require_once '_View/KeyDetailDisplay.php';
+    $sources = array("_App/$class.php", "_Data/$class.php", "_Game/$class.php", "_LevelEditor/$class.php", "_View/$class.php ");
 
-require_once '_Game/GameManager.php';
-require_once '_Game/Game.php';
+    foreach ($sources as $source) {
+        if (file_exists($source)) {
+            require_once $source;
+        }
+    }
+});
 
-require_once '_Game/Entity.php';
-require_once '_Game/Position.php';
-require_once '_Game/World.php';
-require_once '_Game/Player.php';
+if (!isset($_SESSION)){
+    session_start();
+}
 
 $game = GameManager::GetGame();
+//var_dump($game->getWorld());
 
-?>
-
-<?php
+if (!$game->active){
+    echo '<div class="d-flex flex-column min-vh-100">
+    <div class="centerText p-2">
+        <h2>Game Over</h2>
+    </div>
+    <div>
+     You lasted ' . $game->getWorld()->turns . ' turns!
+</div>
+    <div
+    <div id="mainMenuButtons" class="mt-auto p-2">
+        <button class="btn-primary btn-block menuButton" onclick="endGame()">Back to Main Menu</button>
+    </div>
+</div>';
+    GameManager::EndGame();
+    exit;
+}
 
 $pos = $game->getPlayerEntity()->getPosition();
 if (isset($_POST['input'])){

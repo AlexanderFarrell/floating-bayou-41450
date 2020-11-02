@@ -7,7 +7,7 @@ require_once("IEntityContainer.php");
 class World
 {
     private $map;
-    private $entities;
+    private $entities = array();
 
     public $turns = 0;
 
@@ -16,6 +16,10 @@ class World
      */
     public function getEntities()
     {
+        if (!isset($this->entities)){
+            $this->entities = array();
+        }
+
         return $this->entities;
     }
 
@@ -25,7 +29,7 @@ class World
      */
     public function __construct()
     {
-        $this->map = new Map(null, 20, 20);
+        $this->map = new Map(null, 80, 80);
         $this->entities = array();
     }
 
@@ -41,7 +45,9 @@ class World
 
         $this->turns += 1;
         foreach ($this->entities as $entity){
-            $entity->TakeTurn();
+            if (isset($entity)){
+                $entity->TakeTurn();
+            }
         }
     }
 
@@ -56,7 +62,10 @@ class World
     public function removeEntity($entity){
         $key = array_search($entity, $this->entities);
         if (!is_null($key)){
-            unset($key, $this->entities);
+            //unset($key, $this->entities);
+            unset($this->entities[$key]);
+            array_values($this->entities);
+            //$this->entities[$key] = null;
         }
     }
 }

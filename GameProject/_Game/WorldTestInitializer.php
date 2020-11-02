@@ -29,7 +29,7 @@ class WorldTestInitializer
         MapTileManager::AddNewType($tallGrass);
         MapTileManager::AddNewType($rock);
 
-        for ($i = 0; $i < 30; $i++){
+        for ($i = 0; $i < 80; $i++){
             $food = new Entity(new Position(mt_rand(0, $world->getMap()->getWidth()), mt_rand(0, $world->getMap()->getHeight())), '_Content/Food.png');
             $foodComponent = new Food();
             $food->addComponent($foodComponent);

@@ -25,23 +25,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94922c96-6074-42b1-9164-68f83ddf4e82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GameProject/AddMap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameProject/endGameScreen.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/_Content/TallGrass.png" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Content/tall.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/_Game/Entity.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/Entity.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProject/_Game/Game.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/Game.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/_Game/MapTileManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/MapTileManager.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProject/_Game/Player.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/Player.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProject/_Game/World.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/World.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProject/_Game/WorldTestInitializer.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_Game/WorldTestInitializer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/_View/BaseView.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_View/BaseView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/_View/KeyDetailDisplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/_View/KeyDetailDisplay.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/gameIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/gameIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameProject/endGame.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/endGame.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameProject/gameplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/gameplay.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SessionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/SessionTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W6Group/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/W6Group/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +61,6 @@
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
-      <path value="$PROJECT_DIR$/vendor/predis/predis" />
     </include_path>
   </component>
   <component name="ProjectId" id="1i7XwUEyO2WVQMuIzBPOax6QVLN" />
@@ -122,7 +112,7 @@
       <workItem from="1604089047498" duration="1674000" />
       <workItem from="1604115958676" duration="9549000" />
       <workItem from="1604156152208" duration="56403000" />
-      <workItem from="1604342238573" duration="3127000" />
+      <workItem from="1604342238573" duration="5558000" />
     </task>
     <servers />
   </component>
@@ -162,6 +152,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1075" y="409" key="#com.intellij.ide.util.MemberChooser/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604211291841" />
+    <state x="1101" y="470" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0" timestamp="1604348277671">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1101" y="470" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0/-1920.1082.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604348277671" />
     <state x="1058" y="613" key="ComposerInitDialogKey" timestamp="1604089277820">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -174,10 +168,11 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1101" y="423" key="NewPhpClassDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604209345162" />
-    <state x="1117" y="624" key="NewPhpFileDialog" timestamp="1604209281942">
+    <state x="1117" y="624" key="NewPhpFileDialog" timestamp="1604348504935">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1117" y="624" key="NewPhpFileDialog/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604209281942" />
+    <state x="1117" y="624" key="NewPhpFileDialog/-1920.1082.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604348504935" />
     <state x="700" y="393" key="SettingsEditor" timestamp="1601263235660">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -223,5 +218,15 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/-1920.1069.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604199816931" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/GameProject/_View/GameControlsView.php</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
